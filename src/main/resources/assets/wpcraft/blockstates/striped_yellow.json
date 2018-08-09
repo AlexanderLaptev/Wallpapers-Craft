@@ -5,20 +5,20 @@
     "transform": "forge:default-block"
   },
   "variants": {
-      "type=0": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-0" }}],
-      "type=1": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-1"}}],
-      "type=2": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-2"}}],
-      "type=3": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-3"}}],
-      "type=4": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-4"}}],
-      "type=5": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-5"}}],
-      "type=6": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-6"}}],
-      "type=7": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-7"}}],
-      "type=8": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-8"}}],
-      "type=9": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-9"}}],
-      "type=10": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-10"}}],
-      "type=11": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-11"}}],
-      "type=12": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-12"}}],
-      "type=13": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-13"}}],
-      "type=14": [{ "textures": { "all":  "wpcraft:blocks/striped/stripedyellow-14"}}]
+      "type=0": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_0" }}],
+      "type=1": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_1"}}],
+      "type=2": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_2"}}],
+      "type=3": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_3"}}],
+      "type=4": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_4"}}],
+      "type=5": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_5"}}],
+      "type=6": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_6"}}],
+      "type=7": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_7"}}],
+      "type=8": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_8"}}],
+      "type=9": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_9"}}],
+      "type=10": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_0"}}],
+      "type=11": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_1"}}],
+      "type=12": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_2"}}],
+      "type=13": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_3"}}],
+      "type=14": [{ "textures": { "all":  "wpcraft:blocks/striped/striped_yellow_4"}}]
   }
 }

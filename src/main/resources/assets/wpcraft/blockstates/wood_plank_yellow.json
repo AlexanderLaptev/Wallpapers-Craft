@@ -5,20 +5,20 @@
     "transform": "forge:default-block"
   },
   "variants": {
-      "type=0": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-0" }}],
-      "type=1": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-1"}}],
-      "type=2": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-2"}}],
-      "type=3": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-3"}}],
-      "type=4": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-4"}}],
-      "type=5": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-5"}}],
-      "type=6": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-6"}}],
-      "type=7": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-7"}}],
-      "type=8": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-8"}}],
-      "type=9": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-9"}}],
-      "type=10": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-10"}}],
-      "type=11": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-11"}}],
-      "type=12": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-12"}}],
-      "type=13": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-13"}}],
-      "type=14": [{ "textures": { "all":  "wpcraft:blocks/woodplank/woodplankyellow-14"}}]
+      "type=0": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_0" }}],
+      "type=1": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_1"}}],
+      "type=2": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_2"}}],
+      "type=3": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_3"}}],
+      "type=4": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_4"}}],
+      "type=5": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_5"}}],
+      "type=6": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_6"}}],
+      "type=7": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_7"}}],
+      "type=8": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_8"}}],
+      "type=9": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_9"}}],
+      "type=10": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_0"}}],
+      "type=11": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_1"}}],
+      "type=12": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_2"}}],
+      "type=13": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_3"}}],
+      "type=14": [{ "textures": { "all":  "wpcraft:blocks/woodplank/wood_plank_yellow_4"}}]
   }
 }
