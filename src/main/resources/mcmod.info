@@ -1,0 +1,14 @@
+[
+{
+  "modid": "wpcraft",
+  "name": "Wallpapers Craft",
+  "description": "This mod add lots of different decoration blocks in many colors. Have fun!",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "updateUrl": "",
+  "authorList": ["AarronMC", "TheRealForceX"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": [mod_MinecraftForge]
+    }
+]

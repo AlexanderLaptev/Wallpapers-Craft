@@ -1,0 +1,24 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "minecraft:cube_all",
+    "transform": "forge:default-block"
+  },
+  "variants": {
+      "type=0": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_0" }}],
+      "type=1": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_1"}}],
+      "type=2": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_2"}}],
+      "type=3": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_3"}}],
+      "type=4": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_4"}}],
+      "type=5": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_5"}}],
+      "type=6": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_6"}}],
+      "type=7": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_7"}}],
+      "type=8": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_8"}}],
+      "type=9": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_9"}}],
+      "type=10": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_10"}}],
+      "type=11": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_11"}}],
+      "type=12": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_12"}}],
+      "type=13": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_13"}}],
+      "type=14": [{ "textures": { "all":  "wpcraft:blocks/stonebrick/stonebrick_purple_14"}}]
+  }
+}
