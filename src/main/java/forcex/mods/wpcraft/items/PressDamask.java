@@ -2,6 +2,7 @@ package forcex.mods.wpcraft.items;
 
 import java.util.List;
 
+import forcex.mods.wpcraft.Reference;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -16,9 +17,10 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class PressDamask extends Item {
 
     public PressDamask() {
-        setRegistryName("pressdamask");
+        setRegistryName("press_damask");
         setUnlocalizedName("pressdamask");
         setContainerItem(this);
+		setCreativeTab(Reference.MODTAB);
     }
 
     @SideOnly(Side.CLIENT)

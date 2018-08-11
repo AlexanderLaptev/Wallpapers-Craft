@@ -19,7 +19,7 @@ public class PressDiagonallyDotted extends Item {
 
     public PressDiagonallyDotted() {
         setRegistryName("press_diagonally_dotted");
-        setUnlocalizedName("press_diagonally_dotted");
+        setUnlocalizedName("pressdiagonallydotted");
         setContainerItem(this);
         setCreativeTab(Reference.MODTAB);
     }

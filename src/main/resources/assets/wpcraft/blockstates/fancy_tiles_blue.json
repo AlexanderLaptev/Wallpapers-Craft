@@ -5,20 +5,20 @@
     "transform": "forge:default-block"
   },
   "variants": {
-      "type=0": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-0" }}],
-      "type=1": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-1"}}],
-      "type=2": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-2"}}],
-      "type=3": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-3"}}],
-      "type=4": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-4"}}],
-      "type=5": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-5"}}],
-      "type=6": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-6"}}],
-      "type=7": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-7"}}],
-      "type=8": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-8"}}],
-      "type=9": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-9"}}],
-      "type=10": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-10"}}],
-      "type=11": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-11"}}],
-      "type=12": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-12"}}],
-      "type=13": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-13"}}],
-      "type=14": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancytilesblue-14"}}]
+      "type=0": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_0" }}],
+      "type=1": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_1"}}],
+      "type=2": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_2"}}],
+      "type=3": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_3"}}],
+      "type=4": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_4"}}],
+      "type=5": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_5"}}],
+      "type=6": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_6"}}],
+      "type=7": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_7"}}],
+      "type=8": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_8"}}],
+      "type=9": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_9"}}],
+      "type=10": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_0"}}],
+      "type=11": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_1"}}],
+      "type=12": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_2"}}],
+      "type=13": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_3"}}],
+      "type=14": [{ "textures": { "all":  "wpcraft:blocks/fancytiles/fancy_tiles_blue_4"}}]
   }
 }

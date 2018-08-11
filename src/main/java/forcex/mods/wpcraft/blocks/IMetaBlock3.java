@@ -41,7 +41,7 @@ public abstract class IMetaBlock3<T extends Enum<T> & IStringSerializable & IVar
 
 		setDefaultState(this.blockState.getBaseState().withProperty(getVariantEnum(), getDefaultStateVariant()));
 		setRegistryName(registryName);
-		setUnlocalizedName("WallpapersCraft:" + registryName);
+		setUnlocalizedName("WallpaperCraft:" + registryName);
 		itemBlock = new ItemBlockMeta3(this);
 		ForgeRegistries.ITEMS.register(itemBlock);
 	}

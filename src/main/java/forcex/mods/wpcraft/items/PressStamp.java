@@ -2,6 +2,7 @@ package forcex.mods.wpcraft.items;
 
 import java.util.List;
 
+import forcex.mods.wpcraft.Reference;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -16,9 +17,10 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class PressStamp extends Item {
 
     public PressStamp() {
-        setRegistryName("pressstamp");
+        setRegistryName("press_stamp");
         setUnlocalizedName("pressstamp");
         setContainerItem(this);
+		setCreativeTab(Reference.MODTAB);
     }
 
     @SideOnly(Side.CLIENT)

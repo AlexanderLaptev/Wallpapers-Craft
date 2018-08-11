@@ -17,7 +17,7 @@ public class PressBlank extends Item {
 
     public PressBlank() {
         setRegistryName("press_blank");
-        setUnlocalizedName("press_blank");
+        setUnlocalizedName("pressblank");
         setContainerItem(this);
         setCreativeTab(Reference.MODTAB);
     }

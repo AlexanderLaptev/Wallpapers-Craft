@@ -44,7 +44,7 @@ public class RecipeBlankPress implements IRecipe
 				plankCount++;
 			}
 		}
-		List<ItemStack> list = OreDictionary.getOres("plankWood");
+//		List<ItemStack> list = OreDictionary.getOres("plankWood");
 		return axeCount == 1 && plankCount == 1;
 	}
 
@@ -155,12 +155,6 @@ public class RecipeBlankPress implements IRecipe
 	}
 
 	@Override
-	public NonNullList<Ingredient> getIngredients()
-	{
-		return null;
-	}
-
-	@Override
 	public boolean isDynamic()
 	{
 		return false;
@@ -169,7 +163,7 @@ public class RecipeBlankPress implements IRecipe
 	@Override
 	public String getGroup()
 	{
-		return null;
+		return "stuff";
 	}
 
 	@Override

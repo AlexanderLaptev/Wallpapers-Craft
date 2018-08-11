@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "wpcraft:items/press_woodplank"
+        "layer0": "wpcraft:items/press_wood_plank"
     }
 }

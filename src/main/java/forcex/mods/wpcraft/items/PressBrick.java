@@ -2,6 +2,7 @@ package forcex.mods.wpcraft.items;
 
 import java.util.List;
 
+import forcex.mods.wpcraft.Reference;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -17,8 +18,9 @@ public class PressBrick extends Item {
 
     public PressBrick() {
         setRegistryName("press_brick");
-        setUnlocalizedName("press_brick");
+        setUnlocalizedName("pressbrick");
         setContainerItem(this);
+		setCreativeTab(Reference.MODTAB);
     }
 
     @SideOnly(Side.CLIENT)

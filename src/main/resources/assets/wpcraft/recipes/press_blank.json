@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PWP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "W": {
+      "item": "minecraft:planks",
+      "data": 32767
+    }
+  },
+  "result":{
+    "item":"wpcraft:press_blank"
+  }
+}

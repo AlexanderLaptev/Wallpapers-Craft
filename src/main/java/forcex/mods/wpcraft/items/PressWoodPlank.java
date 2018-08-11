@@ -1,5 +1,6 @@
 package forcex.mods.wpcraft.items;
 
+import forcex.mods.wpcraft.Reference;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -15,9 +16,10 @@ public class PressWoodPlank extends Item
 {
 	public PressWoodPlank()
 	{
-		setRegistryName("presswoodplank");
+		setRegistryName("press_wood_plank");
 		setUnlocalizedName("presswoodplank");
 		setContainerItem(this);
+		setCreativeTab(Reference.MODTAB);
 	}
 
 	@SideOnly(Side.CLIENT)

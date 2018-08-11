@@ -52,17 +52,11 @@ public class WoolCarpetRed extends IMetaBlock<BlockTypes> {
     {
         return CARPET_AABB;
     }
-    
-
-    private boolean canBlockStay(World worldIn, BlockPos pos)
-    {
-        return !worldIn.isAirBlock(pos.down());
-    }
 
 	public boolean isVisuallyOpaque() {
 		return false;
 	}
-	
+
 	@Override
 	public boolean isOpaqueCube(IBlockState state)
 	{

@@ -5,20 +5,20 @@
     "transform": "forge:default-block"
   },
   "variants": {
-      "type=0": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-0" }}],
-      "type=1": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-1"}}],
-      "type=2": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-2"}}],
-      "type=3": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-3"}}],
-      "type=4": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-4"}}],
-      "type=5": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-5"}}],
-      "type=6": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-6"}}],
-      "type=7": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-7"}}],
-      "type=8": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-8"}}],
-      "type=9": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-9"}}],
-      "type=10": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-10"}}],
-      "type=11": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-11"}}],
-      "type=12": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-12"}}],
-      "type=13": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-13"}}],
-      "type=14": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippledred-14"}}]
+      "type=0": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_0" }}],
+      "type=1": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_1"}}],
+      "type=2": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_2"}}],
+      "type=3": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_3"}}],
+      "type=4": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_4"}}],
+      "type=5": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_5"}}],
+      "type=6": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_6"}}],
+      "type=7": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_7"}}],
+      "type=8": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_8"}}],
+      "type=9": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_9"}}],
+      "type=10": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_0"}}],
+      "type=11": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_1"}}],
+      "type=12": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_2"}}],
+      "type=13": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_3"}}],
+      "type=14": [{ "textures": { "all":  "wpcraft:blocks/rippled/rippled_red_4"}}]
   }
 }

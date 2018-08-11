@@ -16,7 +16,7 @@
     	"type=6": [{ "textures": { "wool": "wpcraft:blocks/checkeredwool/checkered_wool_green_6", "particle": "#wool" } }],
 		"type=7": [{ "textures": { "wool": "wpcraft:blocks/checkeredwool/checkered_wool_green_7", "particle": "#wool" } }],
 		"type=8": [{ "textures": { "wool": "wpcraft:blocks/checkeredwool/checkered_wool_green_8", "particle": "#wool" } }],
-		"type=9": [{ "textures": { "wool": "wpcraft:blocks/checkeredwool/checkered_wool_green_9", "particle": "#wool" } }],
+		"type=9": [{ "textures": { "wool": "wpcraft:blocks/checkeredwool/checkered_wooll_green_9", "particle": "#wool" } }],
 		"type=10": [{ "textures": { "wool": "wpcraft:blocks/checkeredwool/checkered_wool_green_0", "particle": "#wool" } }],
 		"type=11": [{ "textures": { "wool": "wpcraft:blocks/checkeredwool/checkered_wool_green_1", "particle": "#wool" } }],
 		"type=12": [{ "textures": { "wool": "wpcraft:blocks/checkeredwool/checkered_wool_green_2", "particle": "#wool" } }],

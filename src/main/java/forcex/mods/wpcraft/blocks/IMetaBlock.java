@@ -5,6 +5,7 @@ import forcex.mods.wpcraft.blockStates.BlockTypes;
 import forcex.mods.wpcraft.blocks.bricks.BrickBlue;
 import forcex.mods.wpcraft.items.PressBlank;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockCarpet;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyEnum;
@@ -44,7 +45,7 @@ public abstract class IMetaBlock<T extends Enum<T> & IStringSerializable & IVari
 
 		setDefaultState(this.blockState.getBaseState().withProperty(getVariantEnum(), getDefaultStateVariant()));
 		setRegistryName(registryName);
-		setUnlocalizedName("WallpapersCraft:" + registryName);
+		setUnlocalizedName("WallpaperCraft:" + registryName);
 
 		itemBlock = new ItemBlockMeta(this);
 		ForgeRegistries.ITEMS.register(itemBlock);

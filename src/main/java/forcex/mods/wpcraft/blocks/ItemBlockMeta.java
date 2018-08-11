@@ -1,6 +1,5 @@
 package forcex.mods.wpcraft.blocks;
 
-import com.sun.istack.internal.NotNull;
 import forcex.mods.wpcraft.Reference;
 import forcex.mods.wpcraft.blockStates.BlockTypes;
 import net.minecraft.block.Block;
@@ -56,8 +55,10 @@ public class ItemBlockMeta extends ItemBlock
 		{
 			ItemStack stack = new ItemStack(this, 1, i);
 
-			if(stack != null && stack != ItemStack.EMPTY)
+			if(tab == Reference.MODTAB && isInCreativeTab(tab))
+			{
 				items.add(stack);
+			}
 		}
 	}
 }

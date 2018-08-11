@@ -31,8 +31,10 @@ public class ItemBlockMeta2 extends ItemBlock
 		{
 			ItemStack stack = new ItemStack(this, 1, i);
 
-			if(stack != null && stack != ItemStack.EMPTY)
+			if(tab == Reference.MODTAB && isInCreativeTab(tab))
+			{
 				items.add(stack);
+			}
 		}
 	}
 
