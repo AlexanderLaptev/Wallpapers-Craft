@@ -12,3 +12,9 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+/.idea/
+/run/
+/classes/
+sfk.exe
+libs/Chisel-MC1.12.2-0.2.0.31-api.jar
