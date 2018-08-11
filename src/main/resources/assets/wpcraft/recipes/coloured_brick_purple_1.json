@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:coloured_brick_purple",
+    "data": 1
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:coloured_brick_purple",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

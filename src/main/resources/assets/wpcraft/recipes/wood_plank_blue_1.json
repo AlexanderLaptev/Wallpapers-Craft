@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:wood_plank_blue",
+    "data": 1
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:wood_plank_blue",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

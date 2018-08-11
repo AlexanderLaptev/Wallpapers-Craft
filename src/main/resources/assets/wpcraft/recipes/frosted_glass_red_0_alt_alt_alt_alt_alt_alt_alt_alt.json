@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:frosted_glass_red",
+    "data": 0
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_frosted_glass"
+    },
+    {
+      "item": "minecraft:stained_glass",
+      "data": 14
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

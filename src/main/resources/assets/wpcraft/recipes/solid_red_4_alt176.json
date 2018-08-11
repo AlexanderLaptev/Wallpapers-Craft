@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:solid_red",
+    "data": 4
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_blank"
+    },
+    {
+      "item": "wpcraft:floral_red",
+      "data": 4
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

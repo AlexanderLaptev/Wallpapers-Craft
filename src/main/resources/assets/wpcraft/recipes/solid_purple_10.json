@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:solid_purple",
+    "data": 10
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:solid_purple",
+      "data": 9
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

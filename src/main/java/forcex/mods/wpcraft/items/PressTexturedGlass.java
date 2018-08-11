@@ -19,7 +19,7 @@ public class PressTexturedGlass extends Item {
     public PressTexturedGlass() {
         setRegistryName("press_textured_glass");
         setUnlocalizedName("presstexturedglass");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

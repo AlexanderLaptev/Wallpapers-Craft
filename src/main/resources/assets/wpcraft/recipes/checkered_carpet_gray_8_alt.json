@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "wpcraft:checkered_carpet_gray",
+    "data": 8,
+    "count": 3
+  },
+  "pattern": [
+    "WW"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "W": {
+      "item": "wpcraft:checkered_wool_gray",
+      "data": 8
+    }
+  }
+}

@@ -19,7 +19,7 @@ public class PressFancyTiles extends Item {
     public PressFancyTiles() {
         setRegistryName("press_fancy_tiles");
         setUnlocalizedName("pressfancytiles");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

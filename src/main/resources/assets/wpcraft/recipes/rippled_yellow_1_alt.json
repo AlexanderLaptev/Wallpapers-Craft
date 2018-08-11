@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:rippled_yellow",
+    "data": 1
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_rippled"
+    },
+    {
+      "item": "wpcraft:solid_yellow",
+      "data": 1
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

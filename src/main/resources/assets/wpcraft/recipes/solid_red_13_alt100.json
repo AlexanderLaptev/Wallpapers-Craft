@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:solid_red",
+    "data": 13
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_blank"
+    },
+    {
+      "item": "wpcraft:stonebrick_red",
+      "data": 13
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

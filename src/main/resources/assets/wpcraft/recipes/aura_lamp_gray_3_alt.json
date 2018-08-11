@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:aura_lamp_gray",
+    "data": 3
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_aura_lamp"
+    },
+    {
+      "item": "wpcraft:solid_gray",
+      "data": 3
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

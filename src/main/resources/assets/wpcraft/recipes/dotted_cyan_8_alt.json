@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:dotted_cyan",
+    "data": 8
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_dotted"
+    },
+    {
+      "item": "wpcraft:solid_cyan",
+      "data": 8
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

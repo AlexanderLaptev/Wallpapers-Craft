@@ -19,7 +19,7 @@ public class PressColouredBrick extends Item {
     public PressColouredBrick() {
         setRegistryName("press_coloured_brick");
         setUnlocalizedName("presscolouredbrick");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

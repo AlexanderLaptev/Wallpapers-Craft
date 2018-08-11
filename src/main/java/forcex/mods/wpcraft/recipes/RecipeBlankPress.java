@@ -13,6 +13,7 @@ import net.minecraft.util.NonNullList;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import net.minecraftforge.common.ForgeHooks;
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.oredict.OreDictionary;
 import forcex.mods.wpcraft.init.ModItems;
 
@@ -22,6 +23,12 @@ import javax.annotation.Nullable;
 
 public class RecipeBlankPress implements IRecipe
 {
+
+	public RecipeBlankPress()
+	{
+		super();
+		ForgeRegistries.RECIPES.register(this);
+	}
 
 	@Override
 	public boolean matches(InventoryCrafting inv, World worldIn)

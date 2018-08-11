@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:rippled_red",
+    "data": 1
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:rippled_red",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

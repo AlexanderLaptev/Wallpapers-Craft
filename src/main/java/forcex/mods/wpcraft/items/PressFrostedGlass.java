@@ -19,7 +19,7 @@ public class PressFrostedGlass extends Item {
     public PressFrostedGlass() {
         setRegistryName("press_frosted_glass");
         setUnlocalizedName("pressfrostedglass");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

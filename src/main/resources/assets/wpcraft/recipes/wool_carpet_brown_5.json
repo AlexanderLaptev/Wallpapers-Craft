@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:wool_carpet_brown",
+    "data": 5
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:wool_carpet_brown",
+      "data": 4
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

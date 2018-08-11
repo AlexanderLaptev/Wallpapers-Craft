@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:checkered_wool_blue",
+    "data": 0
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_checkered"
+    },
+    {
+      "item": "wpcraft:solid_blue",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

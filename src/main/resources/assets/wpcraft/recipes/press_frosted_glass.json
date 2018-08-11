@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "wpcraft:press_frosted_glass"
+  },
+  "pattern": [
+    "GPF"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "item": "wpcraft:press_blank"
+    },
+    "F": {
+      "item": "minecraft:sand",
+      "data": 0
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  }
+}

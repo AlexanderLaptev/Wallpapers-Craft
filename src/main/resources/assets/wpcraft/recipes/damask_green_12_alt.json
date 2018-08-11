@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:damask_green",
+    "data": 12
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_damask"
+    },
+    {
+      "item": "wpcraft:solid_green",
+      "data": 12
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

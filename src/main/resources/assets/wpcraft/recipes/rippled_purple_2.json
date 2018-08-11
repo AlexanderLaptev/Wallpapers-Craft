@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:rippled_purple",
+    "data": 2
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:rippled_purple",
+      "data": 1
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

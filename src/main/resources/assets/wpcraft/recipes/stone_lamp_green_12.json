@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:stone_lamp_green",
+    "data": 12
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:stone_lamp_green",
+      "data": 11
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

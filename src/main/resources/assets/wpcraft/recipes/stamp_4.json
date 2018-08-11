@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "wpcraft:stamp",
+    "data": 4
+  },
+  "pattern": [
+    "FP"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "P": {
+      "item": "wpcraft:press_stamp"
+    },
+    "F": {
+      "item": "#SOLIDWPBLOCKS"
+    }
+  }
+}

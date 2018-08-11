@@ -19,7 +19,7 @@ public class PressFloral extends Item {
     public PressFloral() {
         setRegistryName("press_floral");
         setUnlocalizedName("pressfloral");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

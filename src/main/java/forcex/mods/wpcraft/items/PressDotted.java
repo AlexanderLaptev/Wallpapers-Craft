@@ -19,7 +19,7 @@ public class PressDotted extends Item {
     public PressDotted() {
         setRegistryName("press_dotted");
         setUnlocalizedName("pressdotted");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

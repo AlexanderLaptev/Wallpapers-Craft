@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:clay_blue",
+    "data": 6
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_clay"
+    },
+    {
+      "item": "wpcraft:solid_blue",
+      "data": 6
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

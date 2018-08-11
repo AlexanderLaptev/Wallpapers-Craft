@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:solid_blue",
+    "data": 12
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_blank"
+    },
+    {
+      "item": "wpcraft:damask_blue",
+      "data": 12
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "wpcraft:solid_blue",
+    "data": 0,
+    "count": 9
+  },
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "minecraft:stained_hardened_clay",
+      "data": 11
+    }
+  }
+}

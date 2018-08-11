@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:checkered_wool_gray",
+    "data": 9
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_checkered"
+    },
+    {
+      "item": "wpcraft:solid_gray",
+      "data": 9
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

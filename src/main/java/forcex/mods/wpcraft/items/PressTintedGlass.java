@@ -19,7 +19,7 @@ public class PressTintedGlass extends Item {
     public PressTintedGlass() {
         setRegistryName("press_tinted_glass");
         setUnlocalizedName("presstintedglass");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:solid_cyan",
+    "data": 1
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_blank"
+    },
+    {
+      "item": "wpcraft:wood_plank_cyan",
+      "data": 1
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

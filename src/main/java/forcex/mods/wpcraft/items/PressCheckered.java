@@ -19,7 +19,7 @@ public class PressCheckered extends Item {
     public PressCheckered() {
         setRegistryName("press_checkered");
         setUnlocalizedName("presscheckered");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

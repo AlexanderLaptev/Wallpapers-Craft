@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:solid_purple",
+    "data": 8
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_blank"
+    },
+    {
+      "item": "wpcraft:stone_lamp_purple",
+      "data": 8
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -19,7 +19,7 @@ public class PressStriped extends Item {
     public PressStriped() {
         setRegistryName("press_striped");
         setUnlocalizedName("pressstriped");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

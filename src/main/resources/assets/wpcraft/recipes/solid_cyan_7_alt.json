@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:solid_cyan",
+    "data": 7
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_blank"
+    },
+    {
+      "item": "wpcraft:diagonally_dotted_cyan",
+      "data": 7
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

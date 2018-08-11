@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:rippled_gray",
+    "data": 6
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:rippled_gray",
+      "data": 5
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

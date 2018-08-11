@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:solid_yellow",
+    "data": 3
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_blank"
+    },
+    {
+      "item": "wpcraft:brick_yellow",
+      "data": 3
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -19,7 +19,7 @@ public class PressStamp extends Item {
     public PressStamp() {
         setRegistryName("press_stamp");
         setUnlocalizedName("pressstamp");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

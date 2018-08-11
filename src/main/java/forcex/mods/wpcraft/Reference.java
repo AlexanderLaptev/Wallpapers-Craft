@@ -15,5 +15,5 @@ public class Reference
 
     public static final CreativeTabs MODTAB = ModCreativeTabs.WPtab;
 
-    public static final boolean DEBUG = true;
+    public static final boolean DEBUG = false;
 }

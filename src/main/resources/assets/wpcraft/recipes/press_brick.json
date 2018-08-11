@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "wpcraft:press_brick"
+  },
+  "pattern": [
+    "FP"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "item": "wpcraft:press_blank"
+    },
+    "F": {
+      "item": "minecraft:brick_block"
+    }
+  }
+}

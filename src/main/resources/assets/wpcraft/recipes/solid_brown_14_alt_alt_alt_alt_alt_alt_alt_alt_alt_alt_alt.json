@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:solid_brown",
+    "data": 14
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_blank"
+    },
+    {
+      "item": "wpcraft:fancy_tiles_brown",
+      "data": 14
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

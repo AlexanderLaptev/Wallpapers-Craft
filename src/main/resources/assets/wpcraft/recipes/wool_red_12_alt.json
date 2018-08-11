@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:wool_red",
+    "data": 12
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_wool"
+    },
+    {
+      "item": "wpcraft:solid_red",
+      "data": 12
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

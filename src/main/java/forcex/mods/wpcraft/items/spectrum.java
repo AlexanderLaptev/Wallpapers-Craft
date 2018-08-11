@@ -1,5 +1,4 @@
 /*
-
 package Aarron.WallpapersCraft.Items;
 
 import java.util.List;
@@ -19,7 +18,7 @@ public class spectrum extends Item {
     public spectrum() {
         setRegistryName("spectrum");
         setUnlocalizedName("spectrum");
-        setContainerItem(this);
+
         GameRegistry.register(this);
     }
 
@@ -27,14 +26,14 @@ public class spectrum extends Item {
     public void initModel() {
         ModelLoader.setCustomModelResourceLocation(this, 0, new ModelResourceLocation(getRegistryName(), "inventory"));
     }
-    
+
 	@Override
 	public void addInformation(ItemStack itemStack, EntityPlayer player, List tooltipLines, boolean advancedTooltips) {
 		tooltipLines.add("Changes the colour of blocks");
 	}
-	
-	
-	
+
+
+
 	//To be uncommented when the Chisel API updates to a verson with IChiselItem
 	/*
     @Override
@@ -61,7 +60,7 @@ public class spectrum extends Item {
 	public boolean hasModes(ItemStack chisel) {
 		return false;
 	}
-	
+
 }
 
 */

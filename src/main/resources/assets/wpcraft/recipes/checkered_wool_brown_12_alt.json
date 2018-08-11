@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:checkered_wool_brown",
+    "data": 12
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_checkered"
+    },
+    {
+      "item": "wpcraft:solid_brown",
+      "data": 12
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

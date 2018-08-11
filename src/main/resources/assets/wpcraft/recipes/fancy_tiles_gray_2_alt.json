@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:fancy_tiles_gray",
+    "data": 2
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_fancy_tiles"
+    },
+    {
+      "item": "wpcraft:solid_gray",
+      "data": 2
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

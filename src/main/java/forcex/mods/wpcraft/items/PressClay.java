@@ -19,7 +19,7 @@ public class PressClay extends Item {
     public PressClay() {
         setRegistryName("press_clay");
         setUnlocalizedName("pressclay");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

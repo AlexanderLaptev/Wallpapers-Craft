@@ -17,7 +17,7 @@ public class PressWool extends Item {
     public PressWool() {
         setRegistryName("press_wool");
         setUnlocalizedName("presswool");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:wood_plank_red",
+    "data": 6
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_wood_plank"
+    },
+    {
+      "item": "wpcraft:solid_red",
+      "data": 6
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

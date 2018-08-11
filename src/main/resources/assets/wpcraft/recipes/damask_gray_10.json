@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:damask_gray",
+    "data": 10
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:damask_gray",
+      "data": 9
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

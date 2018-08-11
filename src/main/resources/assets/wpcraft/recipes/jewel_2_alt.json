@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:jewel",
+    "data": 2
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:jewel",
+      "data": 1
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:checkered_carpet_yellow",
+    "data": 14
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:checkered_carpet_yellow",
+      "data": 13
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

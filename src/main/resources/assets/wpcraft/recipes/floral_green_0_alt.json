@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:floral_green",
+    "data": 0
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:floral_green",
+      "data": 14
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

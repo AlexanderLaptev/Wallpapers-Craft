@@ -19,7 +19,7 @@ public class PressDamask extends Item {
     public PressDamask() {
         setRegistryName("press_damask");
         setUnlocalizedName("pressdamask");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

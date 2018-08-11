@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:stonebrick_gray",
+    "data": 0
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:stonebrick_gray",
+      "data": 14
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

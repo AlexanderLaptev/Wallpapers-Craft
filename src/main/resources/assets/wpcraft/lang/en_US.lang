@@ -14,23 +14,23 @@ item.pressbrick.name=Brick Pattern Press
 item.presswool.name=Wool Pattern Press
 item.presscheckered.name=Checkered Pattern Press
 item.pressclay.name=Clay Pattern Press
-item.pressdiagonally_dotted.name=Diagonally Dotted Pattern Press
+item.pressdiagonallydotted.name=Diagonally Dotted Pattern Press
 item.pressdotted.name=Dotted Pattern Press
 item.pressfloral.name=Floral Pattern Press
 item.pressstriped.name=Striped Pattern Press
-item.pressfrosted_glass.name=Frosted Glass Pattern Press
-item.presstextured_glass.name=Textured Glass Pattern Press
-item.presstinted_glass.name=Tinted Glass Pattern Press
-item.presswood_plank.name=Wooden Plank Pattern Press
+item.pressfrostedglass.name=Frosted Glass Pattern Press
+item.presstexturedglass.name=Textured Glass Pattern Press
+item.presstintedglass.name=Tinted Glass Pattern Press
+item.presswoodplank.name=Wooden Plank Pattern Press
 item.pressstonebrick.name=Stone Brick Pattern Press
 item.pressrippled.name=Rippled Pattern Press
 item.pressstamp.name=Stamp Pattern Press
-item.pressstone_lamp.name=Stone Lamp Pattern Press
+item.pressstonelamp.name=Stone Lamp Pattern Press
 item.pressdamask.name=Damask Pattern Press
 item.pressjewel.name=Jewel Pattern Press
-item.pressaura_lamp.name=Aura Lamp Pattern Press
-item.pressfancy_tiles.name=Fancy Tiles Pattern Press
-item.presscoloured_brick.name=Colored Brick Pattern Press
+item.pressauralamp.name=Aura Lamp Pattern Press
+item.pressfancytiles.name=Fancy Tiles Pattern Press
+item.presscolouredbrick.name=Colored Brick Pattern Press
 
 
 

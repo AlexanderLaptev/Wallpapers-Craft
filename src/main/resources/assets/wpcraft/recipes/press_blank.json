@@ -1,20 +1,20 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "wpcraft:press_blank",
+    "count": 4
+  },
   "pattern": [
     " P ",
     "PWP",
     " P "
   ],
+  "type": "forge:ore_shaped",
   "key": {
     "P": {
       "item": "minecraft:paper"
     },
     "W": {
-      "item": "minecraft:planks",
-      "data": 32767
+      "item": "#PLANKWOOD"
     }
-  },
-  "result":{
-    "item":"wpcraft:press_blank"
   }
 }

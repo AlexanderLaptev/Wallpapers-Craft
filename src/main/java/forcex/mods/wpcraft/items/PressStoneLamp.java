@@ -19,7 +19,7 @@ public class PressStoneLamp extends Item {
     public PressStoneLamp() {
         setRegistryName("press_stone_lamp");
         setUnlocalizedName("pressstonelamp");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

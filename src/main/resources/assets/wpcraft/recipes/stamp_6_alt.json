@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:stamp",
+    "data": 6
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:stamp",
+      "data": 5
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:coloured_brick_green",
+    "data": 2
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_coloured_brick"
+    },
+    {
+      "item": "wpcraft:solid_green",
+      "data": 2
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

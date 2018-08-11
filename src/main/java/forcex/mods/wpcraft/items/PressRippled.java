@@ -19,7 +19,7 @@ public class PressRippled extends Item {
     public PressRippled() {
         setRegistryName("press_rippled");
         setUnlocalizedName("pressrippled");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "wpcraft:press_wood_plank"
+  },
+  "pattern": [
+    "FP"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "P": {
+      "item": "wpcraft:press_blank"
+    },
+    "F": {
+      "item": "#PLANKWOOD"
+    }
+  }
+}

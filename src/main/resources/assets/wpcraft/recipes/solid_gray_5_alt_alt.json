@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:solid_gray",
+    "data": 5
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_blank"
+    },
+    {
+      "item": "wpcraft:striped_gray",
+      "data": 5
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

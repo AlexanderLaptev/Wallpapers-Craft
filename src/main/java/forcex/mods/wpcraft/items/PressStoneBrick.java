@@ -19,7 +19,7 @@ public class PressStoneBrick extends Item {
     public PressStoneBrick() {
         setRegistryName("press_stonebrick");
         setUnlocalizedName("pressstonebrick");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

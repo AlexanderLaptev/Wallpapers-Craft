@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:solid_purple",
+    "data": 2
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_blank"
+    },
+    {
+      "item": "wpcraft:coloured_brick_purple",
+      "data": 2
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

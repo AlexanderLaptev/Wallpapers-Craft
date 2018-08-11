@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:textured_glass_cyan",
+    "data": 0
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_textured_glass"
+    },
+    {
+      "item": "minecraft:stained_glass",
+      "data": 9
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

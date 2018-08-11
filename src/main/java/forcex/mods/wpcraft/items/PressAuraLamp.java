@@ -19,7 +19,7 @@ public class PressAuraLamp extends Item {
     public PressAuraLamp() {
         setRegistryName("press_aura_lamp");
         setUnlocalizedName("pressauralamp");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

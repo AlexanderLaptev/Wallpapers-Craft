@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:wool_carpet_gray",
+    "data": 8
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:wool_carpet_gray",
+      "data": 7
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:stonebrick_blue",
+    "data": 10
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_stonebrick"
+    },
+    {
+      "item": "wpcraft:solid_blue",
+      "data": 10
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

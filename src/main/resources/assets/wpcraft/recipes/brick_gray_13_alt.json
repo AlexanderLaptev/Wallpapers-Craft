@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:brick_gray",
+    "data": 13
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_brick"
+    },
+    {
+      "item": "wpcraft:solid_gray",
+      "data": 13
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

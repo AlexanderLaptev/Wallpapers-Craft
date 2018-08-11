@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:frosted_glass_purple",
+    "data": 6
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:frosted_glass_purple",
+      "data": 5
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

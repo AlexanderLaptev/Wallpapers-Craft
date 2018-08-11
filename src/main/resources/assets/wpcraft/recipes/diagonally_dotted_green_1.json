@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:diagonally_dotted_green",
+    "data": 1
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:diagonally_dotted_green",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

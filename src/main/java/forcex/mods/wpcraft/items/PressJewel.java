@@ -19,7 +19,7 @@ public class PressJewel extends Item {
     public PressJewel() {
         setRegistryName("press_jewel");
         setUnlocalizedName("pressjewel");
-        setContainerItem(this);
+		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
     }
 

@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:checkered_wool_cyan",
+    "data": 8
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_checkered"
+    },
+    {
+      "item": "wpcraft:solid_cyan",
+      "data": 8
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

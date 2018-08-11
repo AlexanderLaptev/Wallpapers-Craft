@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:striped_green",
+    "data": 14
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_striped"
+    },
+    {
+      "item": "wpcraft:solid_green",
+      "data": 14
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "wpcraft:stone_lamp_yellow",
+    "data": 3
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:press_stone_lamp"
+    },
+    {
+      "item": "wpcraft:solid_yellow",
+      "data": 3
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

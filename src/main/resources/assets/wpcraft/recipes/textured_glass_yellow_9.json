@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "wpcraft:textured_glass_yellow",
+    "data": 9
+  },
+  "ingredients": [
+    {
+      "item": "wpcraft:textured_glass_yellow",
+      "data": 8
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}
