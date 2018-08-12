@@ -3,6 +3,7 @@ package forcex.mods.wpcraft.blocks.carpets;
 import forcex.mods.wpcraft.blockStates.BlockStates;
 import forcex.mods.wpcraft.blockStates.BlockTypes2;
 import forcex.mods.wpcraft.blocks.IMetaBlock2;
+import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.PropertyEnum;
@@ -50,12 +51,38 @@ public class CheckeredCarpetCyan extends IMetaBlock2<BlockTypes2> {
     {
         return CARPET_AABB;
     }
-    
 
-    private boolean canBlockStay(World worldIn, BlockPos pos)
-    {
-        return !worldIn.isAirBlock(pos.down());
-    }
+
+	private boolean canBlockStay(World worldIn, BlockPos pos)
+	{
+		return !worldIn.isAirBlock(pos.down());
+	}
+
+	@Override
+	public boolean canPlaceBlockAt(World worldIn, BlockPos pos)
+	{
+		return super.canPlaceBlockAt(worldIn, pos) && this.canBlockStay(worldIn, pos);
+	}
+
+	private boolean checkForDrop(World worldIn, BlockPos pos, IBlockState state)
+	{
+		if (!this.canBlockStay(worldIn, pos))
+		{
+			this.dropBlockAsItem(worldIn, pos, state, 0);
+			worldIn.setBlockToAir(pos);
+			return false;
+		}
+		else
+		{
+			return true;
+		}
+	}
+
+	@Override
+	public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos fromPos)
+	{
+		this.checkForDrop(worldIn, pos, state);
+	}
 
 	public boolean isVisuallyOpaque() {
 		return false;
