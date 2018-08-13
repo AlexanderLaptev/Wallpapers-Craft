@@ -1,4 +1,4 @@
-package forcex.mods.wpcraft.blockStates;
+package forcex.mods.wpcraft.blockstates;
 
 import forcex.mods.wpcraft.blocks.IVariantDefinition;
 import net.minecraft.util.IStringSerializable;

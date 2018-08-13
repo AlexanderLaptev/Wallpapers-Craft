@@ -4,9 +4,9 @@ import net.minecraft.block.state.IBlockState;
 import team.chisel.api.carving.CarvingUtils;
 import team.chisel.api.carving.ICarvingGroup;
 import team.chisel.api.carving.ICarvingRegistry;
-import forcex.mods.wpcraft.blockStates.BlockTypes;
-import forcex.mods.wpcraft.blockStates.BlockTypes2;
-import forcex.mods.wpcraft.blockStates.BlockTypes3;
+import forcex.mods.wpcraft.blockstates.BlockTypes;
+import forcex.mods.wpcraft.blockstates.BlockTypes2;
+import forcex.mods.wpcraft.blockstates.BlockTypes3;
 import forcex.mods.wpcraft.init.ModBlocks;
 
 

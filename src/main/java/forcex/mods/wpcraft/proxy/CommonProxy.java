@@ -5,16 +5,19 @@ import forcex.mods.wpcraft.handler.ConfigHandler;
 import forcex.mods.wpcraft.handler.EventHandler;
 import forcex.mods.wpcraft.handler.PacketHandler;
 import forcex.mods.wpcraft.init.ModItems;
-//import forcex.mods.wpcraft.recipes.Recipies;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.Loader;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 import java.io.File;
 
+//import forcex.mods.wpcraft.recipes.Recipies;
+
+@Mod.EventBusSubscriber
 public class CommonProxy
 {
 
@@ -61,4 +64,10 @@ public class CommonProxy
 			config.save();
 		}
 	}
+
+//	@SubscribeEvent
+//	public static void registerRecipes(RegistryEvent.Register<IRecipe> event)
+//	{
+//
+//	}
 }	

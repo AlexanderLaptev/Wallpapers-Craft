@@ -1,7 +1,5 @@
 package forcex.mods.wpcraft.network;
 
-import forcex.mods.wpcraft.blockStates.BlockTypes;
-import forcex.mods.wpcraft.blockStates.BlockTypes2;
 import forcex.mods.wpcraft.blocks.ItemBlockMeta;
 import forcex.mods.wpcraft.blocks.ItemBlockMeta2;
 import forcex.mods.wpcraft.blocks.ItemBlockMeta3;
