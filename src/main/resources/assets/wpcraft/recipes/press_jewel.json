@@ -1,14 +1,14 @@
 {
-  "result": {
-    "item": "wpcraft:press_brick"
-  },
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "wpcraft:press_blank"
     },
     {
-      "item": "minecraft:brick_block"
+      "item": "minecraft:diamond"
     }
-  ]
+  ],
+  "result": {
+    "item": "wpcraft:press_jewel"
+  }
 }

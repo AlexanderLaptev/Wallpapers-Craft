@@ -20,7 +20,6 @@ import java.io.File;
 @Mod.EventBusSubscriber
 public class CommonProxy
 {
-
 	public static Configuration config;
 
 	public void preInit(FMLPreInitializationEvent event)
@@ -35,7 +34,7 @@ public class CommonProxy
 			{
 				ChiselSupport.init();
 			}
-			else System.out.print("Install Chisel and set 'enableChisel' to true in the WallpapersCraft config file to enable Chisel intergration ");
+			else System.out.print("[WPcraft]: Install Chisel and set 'enableChisel' to true in the WallpapersCraft config file to enable Chisel integration.");
 		}
 
 //		if (ConfigHandler.enableForestry == true)
@@ -64,10 +63,4 @@ public class CommonProxy
 			config.save();
 		}
 	}
-
-//	@SubscribeEvent
-//	public static void registerRecipes(RegistryEvent.Register<IRecipe> event)
-//	{
-//
-//	}
 }	

@@ -5,8 +5,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item":"wpcraft:press_blank",
-      "data":32767
+      "item":"wpcraft:press_blank"
     },
     {
       "item":"minecraft:stick"

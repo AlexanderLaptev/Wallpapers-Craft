@@ -2,17 +2,14 @@
   "result": {
     "item": "wpcraft:press_damask"
   },
-  "pattern": [
-    "FP"
-  ],
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "P": {
-      "item": "wpcraft:press_blank"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"wpcraft:press_blank"
     },
-    "F": {
-      "item": "minecraft:double_plant",
+    {
+      "item":"minecraft:double_plant",
       "data": 4
     }
-  }
+  ]
 }
