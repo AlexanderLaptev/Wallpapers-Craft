@@ -1,14 +1,13 @@
 package forcex.mods.wpcraft.compatability;
 
-import javax.annotation.Nonnull;
-
+import forcex.mods.wpcraft.handler.ConfigHandler;
+import forcex.mods.wpcraft.init.ModBlocks;
 import mezz.jei.api.BlankModPlugin;
 import mezz.jei.api.IJeiHelpers;
 import mezz.jei.api.IModRegistry;
 import net.minecraft.item.ItemStack;
-import forcex.mods.wpcraft.handler.ConfigHandler;
-import forcex.mods.wpcraft.init.ModBlocks;
-import forcex.mods.wpcraft.recipes.*;
+
+import javax.annotation.Nonnull;
 
 @mezz.jei.api.JEIPlugin
 public class JEIPlugin extends BlankModPlugin {
