@@ -17,6 +17,7 @@ run/
 .idea/
 classes/
 sfk.exe
-libs/
+.libs/
 src/main/java/mezz
 *.iml
+.libs/Chisel-MC1.12.2-0.2.0.31-api.jar

@@ -9,7 +9,6 @@
   "authorList": ["AarronMC", "TheRealForceX"],
   "logoFile": "",
   "screenshots": [],
-  "dependencies": ["mod_MinecraftForge"],
-  "dependents": ["chisel", "jei"]
+  "dependencies": ["mod_MinecraftForge", "chisel", "jei"]
     }
 ]
