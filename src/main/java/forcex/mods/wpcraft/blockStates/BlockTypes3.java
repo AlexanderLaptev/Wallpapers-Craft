@@ -1,11 +1,10 @@
-package forcex.mods.wpcraft.blockstates;
+package forcex.mods.wpcraft.blockStates;
 
-
-import forcex.mods.wpcraft.blocks.IVariantDefinition;
 import net.minecraft.util.IStringSerializable;
+import forcex.mods.wpcraft.blocks.IVariantDefinition;
 
-//15 variants
-public enum BlockTypes implements IStringSerializable, IVariantDefinition{
+//16 variants
+public enum BlockTypes3 implements IStringSerializable, IVariantDefinition {
 	Zero(0, "0"),
 	One(1, "1"),
 	Two(2, "2"),
@@ -18,15 +17,15 @@ public enum BlockTypes implements IStringSerializable, IVariantDefinition{
 	Nine(9, "9"),
 	Ten(10, "10"),
 	Eleven(11, "11"),
-	Twelve(12, "12"),
+	Tweleve(12, "12"),
 	Thirteen(13, "13"),
-	Fourteen(14, "14");
-	
+	Fourteen(14, "14"),
+	Fifteen(15, "15");
 	
 	private final int meta;
 	private final String name;
 	
-	private BlockTypes(int id, String name) {
+	private BlockTypes3(int id, String name) {
 		this.meta = id;
 		this.name = name;
 	}
@@ -40,8 +39,8 @@ public enum BlockTypes implements IStringSerializable, IVariantDefinition{
 		return meta;
 	}
 	
-	public static BlockTypes fromMeta(int meta) {
-		for (BlockTypes type : BlockTypes.values()) {
+	public static BlockTypes3 fromMeta(int meta) {
+		for (BlockTypes3 type : BlockTypes3.values()) {
 			if (type.getMeta() == meta) {
 				return type;
 			}
@@ -55,8 +54,4 @@ public enum BlockTypes implements IStringSerializable, IVariantDefinition{
 		return "type";
 	}
 
-
-
-	
-	
 }

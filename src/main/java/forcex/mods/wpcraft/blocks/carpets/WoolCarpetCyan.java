@@ -2,8 +2,8 @@ package forcex.mods.wpcraft.blocks.carpets;
 
 import javax.annotation.Nonnull;
 
-import forcex.mods.wpcraft.blockstates.BlockStates;
-import forcex.mods.wpcraft.blockstates.BlockTypes2;
+import forcex.mods.wpcraft.blockStates.BlockStates;
+import forcex.mods.wpcraft.blockStates.BlockTypes2;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;

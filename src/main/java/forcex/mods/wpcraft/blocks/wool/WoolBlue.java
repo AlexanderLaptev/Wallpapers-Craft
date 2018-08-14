@@ -1,7 +1,7 @@
 package forcex.mods.wpcraft.blocks.wool;
 
-import forcex.mods.wpcraft.blockstates.BlockStates;
-import forcex.mods.wpcraft.blockstates.BlockTypes;
+import forcex.mods.wpcraft.blockStates.BlockStates;
+import forcex.mods.wpcraft.blockStates.BlockTypes;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.PropertyEnum;

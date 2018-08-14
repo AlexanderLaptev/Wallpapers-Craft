@@ -1,4 +1,4 @@
-package forcex.mods.wpcraft.blockstates;
+package forcex.mods.wpcraft.blockStates;
 
 import net.minecraft.block.properties.PropertyEnum;
 

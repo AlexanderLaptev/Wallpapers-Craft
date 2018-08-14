@@ -6,9 +6,9 @@
   "version": "1.1.1",
   "mcversion": "1.12.2",
   "updateUrl": "",
-  "authorList": ["AarronMC", "TheRealForceX"],
+  "authorList": ["TheRealForceX", "AarronMc"],
   "logoFile": "",
   "screenshots": [],
-  "dependencies": ["mod_MinecraftForge", "chisel", "jei"]
+  "dependencies": ["mod_MinecraftForge"]
     }
 ]

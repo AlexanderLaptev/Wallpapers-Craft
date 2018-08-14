@@ -1,7 +1,7 @@
 package forcex.mods.wpcraft.blocks.glass;
 
-import forcex.mods.wpcraft.blockstates.BlockStates;
-import forcex.mods.wpcraft.blockstates.BlockTypes;
+import forcex.mods.wpcraft.blockStates.BlockStates;
+import forcex.mods.wpcraft.blockStates.BlockTypes;
 import forcex.mods.wpcraft.blocks.IMetaBlock;
 import forcex.mods.wpcraft.init.ModBlocks;
 import net.minecraft.block.Block;

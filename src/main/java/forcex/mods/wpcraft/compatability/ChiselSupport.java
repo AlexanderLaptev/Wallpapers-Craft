@@ -4,23 +4,23 @@ import net.minecraft.block.state.IBlockState;
 import team.chisel.api.carving.CarvingUtils;
 import team.chisel.api.carving.ICarvingGroup;
 import team.chisel.api.carving.ICarvingRegistry;
-import forcex.mods.wpcraft.blockstates.BlockTypes;
-import forcex.mods.wpcraft.blockstates.BlockTypes2;
-import forcex.mods.wpcraft.blockstates.BlockTypes3;
+import forcex.mods.wpcraft.blockStates.BlockTypes;
+import forcex.mods.wpcraft.blockStates.BlockTypes2;
+import forcex.mods.wpcraft.blockStates.BlockTypes3;
 import forcex.mods.wpcraft.init.ModBlocks;
 
 
 
 public class ChiselSupport {
-	
-	
-    
+
+
+
 	public static void init() {
 		ICarvingRegistry chisel = CarvingUtils.getChiselRegistry();
 		if (chisel == null) {
 			return;
 		}
-		
+
 		ICarvingGroup SolidRed = getGroup(chisel, "SolidRed");
 		ICarvingGroup SolidPurple = getGroup(chisel, "SolidPurple");
 		ICarvingGroup SolidBlue = getGroup(chisel, "SolidBlue");
@@ -29,7 +29,7 @@ public class ChiselSupport {
 		ICarvingGroup SolidYellow = getGroup(chisel, "SolidYellow");
 		ICarvingGroup SolidBrown = getGroup(chisel, "SolidBrown");
 		ICarvingGroup SolidGray = getGroup(chisel, "SolidGray");
-		
+
 		ICarvingGroup DiagonallyDottedRed = getGroup(chisel, "DiagonallyDottedRed");
 		ICarvingGroup DiagonallyDottedPurple = getGroup(chisel, "DiagonallyDottedPurple");
 		ICarvingGroup DiagonallyDottedBlue = getGroup(chisel, "DiagonallyDottedBlue");
@@ -38,7 +38,7 @@ public class ChiselSupport {
 		ICarvingGroup DiagonallyDottedYellow = getGroup(chisel, "DiagonallyDottedYellow");
 		ICarvingGroup DiagonallyDottedBrown = getGroup(chisel, "DiagonallyDottedBrown");
 		ICarvingGroup DiagonallyDottedGray = getGroup(chisel, "DiagonallyDottedGray");
-		
+
 		ICarvingGroup StripedRed = getGroup(chisel, "StripedRed");
 		ICarvingGroup StripedPurple = getGroup(chisel, "StripedPurple");
 		ICarvingGroup StripedBlue = getGroup(chisel, "StripedBlue");
@@ -47,7 +47,7 @@ public class ChiselSupport {
 		ICarvingGroup StripedYellow = getGroup(chisel, "StripedYellow");
 		ICarvingGroup StripedBrown = getGroup(chisel, "StripedBrown");
 		ICarvingGroup StripedGray = getGroup(chisel, "StripedGray");
-		
+
 		ICarvingGroup FloralRed = getGroup(chisel, "FloralRed");
 		ICarvingGroup FloralPurple = getGroup(chisel, "FloralPurple");
 		ICarvingGroup FloralBlue = getGroup(chisel, "FloralBlue");
@@ -56,7 +56,7 @@ public class ChiselSupport {
 		ICarvingGroup FloralYellow = getGroup(chisel, "FloralYellow");
 		ICarvingGroup FloralBrown = getGroup(chisel, "FloralBrown");
 		ICarvingGroup FloralGray = getGroup(chisel, "FloralGray");
-		
+
 		ICarvingGroup DamaskRed = getGroup(chisel, "DamaskRed");
 		ICarvingGroup DamaskPurple = getGroup(chisel, "DamaskPurple");
 		ICarvingGroup DamaskBlue = getGroup(chisel, "DamaskBlue");
@@ -65,7 +65,7 @@ public class ChiselSupport {
 		ICarvingGroup DamaskYellow = getGroup(chisel, "DamaskYellow");
 		ICarvingGroup DamaskBrown = getGroup(chisel, "DamaskBrown");
 		ICarvingGroup DamaskGray = getGroup(chisel, "DamaskGray");
-		
+
 		ICarvingGroup ClayRed = getGroup(chisel, "ClayRed");
 		ICarvingGroup ClayPurple = getGroup(chisel, "ClayPurple");
 		ICarvingGroup ClayBlue = getGroup(chisel, "ClayBlue");
@@ -74,7 +74,7 @@ public class ChiselSupport {
 		ICarvingGroup ClayYellow = getGroup(chisel, "ClayYellow");
 		ICarvingGroup ClayBrown = getGroup(chisel, "ClayBrown");
 		ICarvingGroup ClayGray = getGroup(chisel, "ClayGray");
-		
+
 		ICarvingGroup TintedGlassRed = getGroup(chisel, "TintedGlassRed");
 		ICarvingGroup TintedGlassPurple = getGroup(chisel, "TintedGlassPurple");
 		ICarvingGroup TintedGlassBlue = getGroup(chisel, "TintedGlassBlue");
@@ -83,7 +83,7 @@ public class ChiselSupport {
 		ICarvingGroup TintedGlassYellow = getGroup(chisel, "TintedGlassYellow");
 		ICarvingGroup TintedGlassBrown = getGroup(chisel, "TintedGlassBrown");
 		ICarvingGroup TintedGlassGray = getGroup(chisel, "TintedGlassGray");
-		
+
 		ICarvingGroup TexturedGlassRed = getGroup(chisel, "TexturedGlassRed");
 		ICarvingGroup TexturedGlassPurple = getGroup(chisel, "TexturedGlassPurple");
 		ICarvingGroup TexturedGlassBlue = getGroup(chisel, "TexturedGlassBlue");
@@ -92,7 +92,7 @@ public class ChiselSupport {
 		ICarvingGroup TexturedGlassYellow = getGroup(chisel, "TexturedGlassYellow");
 		ICarvingGroup TexturedGlassBrown = getGroup(chisel, "TexturedGlassBrown");
 		ICarvingGroup TexturedGlassGray = getGroup(chisel, "TexturedGlassGray");
-		
+
 		ICarvingGroup FrostedGlassRed = getGroup(chisel, "FrostedGlassRed");
 		ICarvingGroup FrostedGlassPurple = getGroup(chisel, "FrostedGlassPurple");
 		ICarvingGroup FrostedGlassBlue = getGroup(chisel, "FrostedGlassBlue");
@@ -101,7 +101,7 @@ public class ChiselSupport {
 		ICarvingGroup FrostedGlassYellow = getGroup(chisel, "FrostedGlassYellow");
 		ICarvingGroup FrostedGlassBrown = getGroup(chisel, "FrostedGlassBrown");
 		ICarvingGroup FrostedGlassGray = getGroup(chisel, "FrostedGlassGray");
-		
+
 		ICarvingGroup BrickRed = getGroup(chisel, "BrickRed");
 		ICarvingGroup BrickPurple = getGroup(chisel, "BrickPurple");
 		ICarvingGroup BrickBlue = getGroup(chisel, "BrickBlue");
@@ -110,7 +110,7 @@ public class ChiselSupport {
 		ICarvingGroup BrickYellow = getGroup(chisel, "BrickYellow");
 		ICarvingGroup BrickBrown = getGroup(chisel, "BrickBrown");
 		ICarvingGroup BrickGray = getGroup(chisel, "BrickGray");
-		
+
 		ICarvingGroup StoneBrickRed = getGroup(chisel, "StoneBrickRed");
 		ICarvingGroup StoneBrickPurple = getGroup(chisel, "StoneBrickPurple");
 		ICarvingGroup StoneBrickBlue = getGroup(chisel, "StoneBrickBlue");
@@ -119,7 +119,7 @@ public class ChiselSupport {
 		ICarvingGroup StoneBrickYellow = getGroup(chisel, "StoneBrickYellow");
 		ICarvingGroup StoneBrickBrown = getGroup(chisel, "StoneBrickBrown");
 		ICarvingGroup StoneBrickGray = getGroup(chisel, "StoneBrickGray");
-		
+
 		ICarvingGroup ColouredBrickRed = getGroup(chisel, "ColouredBrickRed");
 		ICarvingGroup ColouredBrickPurple = getGroup(chisel, "ColouredBrickPurple");
 		ICarvingGroup ColouredBrickBlue = getGroup(chisel, "ColouredBrickBlue");
@@ -128,7 +128,7 @@ public class ChiselSupport {
 		ICarvingGroup ColouredBrickYellow = getGroup(chisel, "ColouredBrickYellow");
 		ICarvingGroup ColouredBrickBrown = getGroup(chisel, "ColouredBrickBrown");
 		ICarvingGroup ColouredBrickGray = getGroup(chisel, "ColouredBrickGray");
-		
+
 		ICarvingGroup StoneLampRed = getGroup(chisel, "StoneLampRed");
 		ICarvingGroup StoneLampPurple = getGroup(chisel, "StoneLampPurple");
 		ICarvingGroup StoneLampBlue = getGroup(chisel, "StoneLampBlue");
@@ -137,7 +137,7 @@ public class ChiselSupport {
 		ICarvingGroup StoneLampYellow = getGroup(chisel, "StoneLampYellow");
 		ICarvingGroup StoneLampBrown = getGroup(chisel, "StoneLampBrown");
 		ICarvingGroup StoneLampGray = getGroup(chisel, "StoneLampGray");
-		
+
 		ICarvingGroup RippledRed = getGroup(chisel, "RippledRed");
 		ICarvingGroup RippledPurple = getGroup(chisel, "RippledPurple");
 		ICarvingGroup RippledBlue = getGroup(chisel, "RippledBlue");
@@ -146,7 +146,7 @@ public class ChiselSupport {
 		ICarvingGroup RippledYellow = getGroup(chisel, "RippledYellow");
 		ICarvingGroup RippledBrown = getGroup(chisel, "RippledBrown");
 		ICarvingGroup RippledGray = getGroup(chisel, "RippledGray");
-		
+
 		ICarvingGroup FancyTilesRed = getGroup(chisel, "FancyTilesRed");
 		ICarvingGroup FancyTilesPurple = getGroup(chisel, "FancyTilesPurple");
 		ICarvingGroup FancyTilesBlue = getGroup(chisel, "FancyTilesBlue");
@@ -155,11 +155,11 @@ public class ChiselSupport {
 		ICarvingGroup FancyTilesYellow = getGroup(chisel, "FancyTilesYellow");
 		ICarvingGroup FancyTilesBrown = getGroup(chisel, "FancyTilesBrown");
 		ICarvingGroup FancyTilesGray = getGroup(chisel, "FancyTilesGray");
-		
+
 		ICarvingGroup Stamp = getGroup(chisel, "Stamp");
-		
+
 		ICarvingGroup Jewel = getGroup(chisel, "Jewel");
-		
+
 		ICarvingGroup WoodPlankRed = getGroup(chisel, "WoodPlankRed");
 		ICarvingGroup WoodPlankPurple = getGroup(chisel, "WoodPlankPurple");
 		ICarvingGroup WoodPlankBlue = getGroup(chisel, "WoodPlankBlue");
@@ -168,7 +168,7 @@ public class ChiselSupport {
 		ICarvingGroup WoodPlankYellow = getGroup(chisel, "WoodPlankYellow");
 		ICarvingGroup WoodPlankBrown = getGroup(chisel, "WoodPlankBrown");
 		ICarvingGroup WoodPlankGray = getGroup(chisel, "WoodPlankGray");
-		
+
 		ICarvingGroup DottedRed = getGroup(chisel, "DottedRed");
 		ICarvingGroup DottedPurple = getGroup(chisel, "DottedPurple");
 		ICarvingGroup DottedBlue = getGroup(chisel, "DottedBlue");
@@ -177,7 +177,7 @@ public class ChiselSupport {
 		ICarvingGroup DottedYellow = getGroup(chisel, "DottedYellow");
 		ICarvingGroup DottedBrown = getGroup(chisel, "DottedBrown");
 		ICarvingGroup DottedGray = getGroup(chisel, "DottedGray");
-				
+
 		ICarvingGroup WoolRed = getGroup(chisel, "WoolRed");
 		ICarvingGroup WoolPurple = getGroup(chisel, "WoolPurple");
 		ICarvingGroup WoolBlue = getGroup(chisel, "WoolBlue");
@@ -186,7 +186,7 @@ public class ChiselSupport {
 		ICarvingGroup WoolYellow = getGroup(chisel, "WoolYellow");
 		ICarvingGroup WoolBrown = getGroup(chisel, "WoolBrown");
 		ICarvingGroup WoolGray = getGroup(chisel, "WoolGray");
-		
+
 		ICarvingGroup WoolCarpetRed = getGroup(chisel, "WoolCarpetRed");
 		ICarvingGroup WoolCarpetPurple = getGroup(chisel, "WoolCarpetPurple");
 		ICarvingGroup WoolCarpetBlue = getGroup(chisel, "WoolCarpetBlue");
@@ -195,7 +195,7 @@ public class ChiselSupport {
 		ICarvingGroup WoolCarpetYellow = getGroup(chisel, "WoolCarpetYellow");
 		ICarvingGroup WoolCarpetBrown = getGroup(chisel, "WoolCarpetBrown");
 		ICarvingGroup WoolCarpetGray = getGroup(chisel, "WoolCarpetGray");
-		
+
 		ICarvingGroup CheckeredWoolRed = getGroup(chisel, "CheckeredWoolRed");
 		ICarvingGroup CheckeredWoolPurple = getGroup(chisel, "CheckeredWoolPurple");
 		ICarvingGroup CheckeredWoolBlue = getGroup(chisel, "CheckeredWoolBlue");
@@ -204,7 +204,7 @@ public class ChiselSupport {
 		ICarvingGroup CheckeredWoolYellow = getGroup(chisel, "CheckeredWoolYellow");
 		ICarvingGroup CheckeredWoolBrown = getGroup(chisel, "CheckeredWoolBrown");
 		ICarvingGroup CheckeredWoolGray = getGroup(chisel, "CheckeredWoolGray");
-		
+
 		ICarvingGroup CheckeredCarpetRed = getGroup(chisel, "CheckeredCarpetRed");
 		ICarvingGroup CheckeredCarpetPurple = getGroup(chisel, "CheckeredCarpetPurple");
 		ICarvingGroup CheckeredCarpetBlue = getGroup(chisel, "CheckeredCarpetBlue");
@@ -213,7 +213,7 @@ public class ChiselSupport {
 		ICarvingGroup CheckeredCarpetYellow = getGroup(chisel, "CheckeredCarpetYellow");
 		ICarvingGroup CheckeredCarpetBrown = getGroup(chisel, "CheckeredCarpetBrown");
 		ICarvingGroup CheckeredCarpetGray = getGroup(chisel, "CheckeredCarpetGray");
-		
+
 		ICarvingGroup AuraLampRed = getGroup(chisel, "AuraLampRed");
 		ICarvingGroup AuraLampPurple = getGroup(chisel, "AuraLampPurple");
 		ICarvingGroup AuraLampBlue = getGroup(chisel, "AuraLampBlue");
@@ -223,7 +223,7 @@ public class ChiselSupport {
 		ICarvingGroup AuraLampBrown = getGroup(chisel, "AuraLampBrown");
 		ICarvingGroup AuraLampGray = getGroup(chisel, "AuraLampGray");
 
-		
+
 		chisel.addGroup(SolidRed);
 		chisel.addGroup(SolidPurple);
 		chisel.addGroup(SolidBlue);
@@ -232,7 +232,7 @@ public class ChiselSupport {
 		chisel.addGroup(SolidYellow);
 		chisel.addGroup(SolidBrown);
 		chisel.addGroup(SolidGray);
-		
+
 		chisel.addGroup(DiagonallyDottedRed);
 		chisel.addGroup(DiagonallyDottedPurple);
 		chisel.addGroup(DiagonallyDottedBlue);
@@ -241,7 +241,7 @@ public class ChiselSupport {
 		chisel.addGroup(DiagonallyDottedYellow);
 		chisel.addGroup(DiagonallyDottedBrown);
 		chisel.addGroup(DiagonallyDottedGray);
-		
+
 		chisel.addGroup(StripedRed);
 		chisel.addGroup(StripedPurple);
 		chisel.addGroup(StripedBlue);
@@ -250,7 +250,7 @@ public class ChiselSupport {
 		chisel.addGroup(StripedYellow);
 		chisel.addGroup(StripedBrown);
 		chisel.addGroup(StripedGray);
-		
+
 		chisel.addGroup(FloralRed);
 		chisel.addGroup(FloralPurple);
 		chisel.addGroup(FloralBlue);
@@ -259,7 +259,7 @@ public class ChiselSupport {
 		chisel.addGroup(FloralYellow);
 		chisel.addGroup(FloralBrown);
 		chisel.addGroup(FloralGray);
-		
+
 		chisel.addGroup(DamaskRed);
 		chisel.addGroup(DamaskPurple);
 		chisel.addGroup(DamaskBlue);
@@ -268,7 +268,7 @@ public class ChiselSupport {
 		chisel.addGroup(DamaskYellow);
 		chisel.addGroup(DamaskBrown);
 		chisel.addGroup(DamaskGray);
-		
+
 		chisel.addGroup(ClayRed);
 		chisel.addGroup(ClayPurple);
 		chisel.addGroup(ClayBlue);
@@ -277,7 +277,7 @@ public class ChiselSupport {
 		chisel.addGroup(ClayYellow);
 		chisel.addGroup(ClayBrown);
 		chisel.addGroup(ClayGray);
-		
+
 		chisel.addGroup(TintedGlassRed);
 		chisel.addGroup(TintedGlassPurple);
 		chisel.addGroup(TintedGlassBlue);
@@ -286,7 +286,7 @@ public class ChiselSupport {
 		chisel.addGroup(TintedGlassYellow);
 		chisel.addGroup(TintedGlassBrown);
 		chisel.addGroup(TintedGlassGray);
-		
+
 		chisel.addGroup(TexturedGlassRed);
 		chisel.addGroup(TexturedGlassPurple);
 		chisel.addGroup(TexturedGlassBlue);
@@ -295,7 +295,7 @@ public class ChiselSupport {
 		chisel.addGroup(TexturedGlassYellow);
 		chisel.addGroup(TexturedGlassBrown);
 		chisel.addGroup(TexturedGlassGray);
-		
+
 		chisel.addGroup(FrostedGlassRed);
 		chisel.addGroup(FrostedGlassPurple);
 		chisel.addGroup(FrostedGlassBlue);
@@ -304,7 +304,7 @@ public class ChiselSupport {
 		chisel.addGroup(FrostedGlassYellow);
 		chisel.addGroup(FrostedGlassBrown);
 		chisel.addGroup(FrostedGlassGray);
-		
+
 		chisel.addGroup(BrickRed);
 		chisel.addGroup(BrickPurple);
 		chisel.addGroup(BrickBlue);
@@ -313,7 +313,7 @@ public class ChiselSupport {
 		chisel.addGroup(BrickYellow);
 		chisel.addGroup(BrickBrown);
 		chisel.addGroup(BrickGray);
-		
+
 		chisel.addGroup(StoneBrickRed);
 		chisel.addGroup(StoneBrickPurple);
 		chisel.addGroup(StoneBrickBlue);
@@ -322,7 +322,7 @@ public class ChiselSupport {
 		chisel.addGroup(StoneBrickYellow);
 		chisel.addGroup(StoneBrickBrown);
 		chisel.addGroup(StoneBrickGray);
-		
+
 		chisel.addGroup(ColouredBrickRed);
 		chisel.addGroup(ColouredBrickPurple);
 		chisel.addGroup(ColouredBrickBlue);
@@ -331,7 +331,7 @@ public class ChiselSupport {
 		chisel.addGroup(ColouredBrickYellow);
 		chisel.addGroup(ColouredBrickBrown);
 		chisel.addGroup(ColouredBrickGray);
-		
+
 		chisel.addGroup(StoneLampRed);
 		chisel.addGroup(StoneLampPurple);
 		chisel.addGroup(StoneLampBlue);
@@ -340,7 +340,7 @@ public class ChiselSupport {
 		chisel.addGroup(StoneLampYellow);
 		chisel.addGroup(StoneLampBrown);
 		chisel.addGroup(StoneLampGray);
-		
+
 		chisel.addGroup(RippledRed);
 		chisel.addGroup(RippledPurple);
 		chisel.addGroup(RippledBlue);
@@ -349,7 +349,7 @@ public class ChiselSupport {
 		chisel.addGroup(RippledYellow);
 		chisel.addGroup(RippledBrown);
 		chisel.addGroup(RippledGray);
-		
+
 		chisel.addGroup(FancyTilesRed);
 		chisel.addGroup(FancyTilesPurple);
 		chisel.addGroup(FancyTilesBlue);
@@ -358,11 +358,11 @@ public class ChiselSupport {
 		chisel.addGroup(FancyTilesYellow);
 		chisel.addGroup(FancyTilesBrown);
 		chisel.addGroup(FancyTilesGray);
-		
+
 		chisel.addGroup(Stamp);
-		
+
 		chisel.addGroup(Jewel);
-		
+
 		chisel.addGroup(WoodPlankRed);
 		chisel.addGroup(WoodPlankPurple);
 		chisel.addGroup(WoodPlankBlue);
@@ -371,7 +371,7 @@ public class ChiselSupport {
 		chisel.addGroup(WoodPlankYellow);
 		chisel.addGroup(WoodPlankBrown);
 		chisel.addGroup(WoodPlankGray);
-		
+
 		chisel.addGroup(DottedRed);
 		chisel.addGroup(DottedPurple);
 		chisel.addGroup(DottedBlue);
@@ -380,7 +380,7 @@ public class ChiselSupport {
 		chisel.addGroup(DottedYellow);
 		chisel.addGroup(DottedBrown);
 		chisel.addGroup(DottedGray);
-				
+
 		chisel.addGroup(WoolRed);
 		chisel.addGroup(WoolPurple);
 		chisel.addGroup(WoolBlue);
@@ -389,7 +389,7 @@ public class ChiselSupport {
 		chisel.addGroup(WoolYellow);
 		chisel.addGroup(WoolBrown);
 		chisel.addGroup(WoolGray);
-		
+
 		chisel.addGroup(WoolCarpetRed);
 		chisel.addGroup(WoolCarpetPurple);
 		chisel.addGroup(WoolCarpetBlue);
@@ -398,7 +398,7 @@ public class ChiselSupport {
 		chisel.addGroup(WoolCarpetYellow);
 		chisel.addGroup(WoolCarpetBrown);
 		chisel.addGroup(WoolCarpetGray);
-		
+
 		chisel.addGroup(CheckeredWoolRed);
 		chisel.addGroup(CheckeredWoolPurple);
 		chisel.addGroup(CheckeredWoolBlue);
@@ -407,7 +407,7 @@ public class ChiselSupport {
 		chisel.addGroup(CheckeredWoolYellow);
 		chisel.addGroup(CheckeredWoolBrown);
 		chisel.addGroup(CheckeredWoolGray);
-		
+
 		chisel.addGroup(CheckeredCarpetRed);
 		chisel.addGroup(CheckeredCarpetPurple);
 		chisel.addGroup(CheckeredCarpetBlue);
@@ -416,7 +416,7 @@ public class ChiselSupport {
 		chisel.addGroup(CheckeredCarpetYellow);
 		chisel.addGroup(CheckeredCarpetBrown);
 		chisel.addGroup(CheckeredCarpetGray);
-		
+
 		chisel.addGroup(AuraLampRed);
 		chisel.addGroup(AuraLampPurple);
 		chisel.addGroup(AuraLampBlue);
@@ -425,10 +425,10 @@ public class ChiselSupport {
 		chisel.addGroup(AuraLampYellow);
 		chisel.addGroup(AuraLampBrown);
 		chisel.addGroup(AuraLampGray);
-		
-		
 
-		
+
+
+
 		for (BlockTypes type : BlockTypes.values()) {
 			IBlockState SolidRedState = ModBlocks.SolidRed.getStateFromMeta(type.getMeta());
 			IBlockState SolidPurpleState = ModBlocks.SolidPurple.getStateFromMeta(type.getMeta());
@@ -437,7 +437,7 @@ public class ChiselSupport {
 			IBlockState SolidYellowState = ModBlocks.SolidYellow.getStateFromMeta(type.getMeta());
 			IBlockState SolidBrownState = ModBlocks.SolidBrown.getStateFromMeta(type.getMeta());
 			IBlockState SolidGrayState = ModBlocks.SolidGray.getStateFromMeta(type.getMeta());
-			
+
 			chisel.addVariation(SolidRed.getName(), SolidRedState, 99);
 			chisel.addVariation(SolidPurple.getName(), SolidPurpleState, 99);
 			chisel.addVariation(SolidBlue.getName(), SolidBlueState, 99);
@@ -445,9 +445,9 @@ public class ChiselSupport {
 			chisel.addVariation(SolidYellow.getName(), SolidYellowState, 99);
 			chisel.addVariation(SolidBrown.getName(), SolidBrownState, 99);
 			chisel.addVariation(SolidGray.getName(), SolidGrayState, 99);
-			
-			
-			
+
+
+
 			IBlockState DiagonallyDottedRedState = ModBlocks.DiagonallyDottedRed.getStateFromMeta(type.getMeta());
 			IBlockState DiagonallyDottedPurpleState = ModBlocks.DiagonallyDottedPurple.getStateFromMeta(type.getMeta());
 			IBlockState DiagonallyDottedBlueState = ModBlocks.DiagonallyDottedBlue.getStateFromMeta(type.getMeta());
@@ -463,9 +463,9 @@ public class ChiselSupport {
 			chisel.addVariation(DiagonallyDottedYellow.getName(), DiagonallyDottedYellowState, 99);
 			chisel.addVariation(DiagonallyDottedBrown.getName(), DiagonallyDottedBrownState, 99);
 			chisel.addVariation(DiagonallyDottedGray.getName(), DiagonallyDottedGrayState, 99);
-			
-			
-			
+
+
+
 			IBlockState StripedRedState = ModBlocks.StripedRed.getStateFromMeta(type.getMeta());
 			IBlockState StripedPurpleState = ModBlocks.StripedPurple.getStateFromMeta(type.getMeta());
 			IBlockState StripedBlueState = ModBlocks.StripedBlue.getStateFromMeta(type.getMeta());
@@ -481,9 +481,9 @@ public class ChiselSupport {
 			chisel.addVariation(StripedYellow.getName(), StripedYellowState, 99);
 			chisel.addVariation(StripedBrown.getName(), StripedBrownState, 99);
 			chisel.addVariation(StripedGray.getName(), StripedGrayState, 99);
-			
-			
-			
+
+
+
 			IBlockState FloralRedState = ModBlocks.FloralRed.getStateFromMeta(type.getMeta());
 			IBlockState FloralPurpleState = ModBlocks.FloralPurple.getStateFromMeta(type.getMeta());
 			IBlockState FloralBlueState = ModBlocks.FloralBlue.getStateFromMeta(type.getMeta());
@@ -500,8 +500,8 @@ public class ChiselSupport {
 			chisel.addVariation(FloralBrown.getName(), FloralBrownState, 99);
 			chisel.addVariation(FloralGray.getName(), FloralGrayState, 99);
 
-			
-			
+
+
 			IBlockState DamaskRedState = ModBlocks.DamaskRed.getStateFromMeta(type.getMeta());
 			IBlockState DamaskPurpleState = ModBlocks.DamaskPurple.getStateFromMeta(type.getMeta());
 			IBlockState DamaskBlueState = ModBlocks.DamaskBlue.getStateFromMeta(type.getMeta());
@@ -517,9 +517,9 @@ public class ChiselSupport {
 			chisel.addVariation(DamaskYellow.getName(), DamaskYellowState, 99);
 			chisel.addVariation(DamaskBrown.getName(), DamaskBrownState, 99);
 			chisel.addVariation(DamaskGray.getName(), DamaskGrayState, 99);
-			
-			
-			
+
+
+
 			IBlockState ClayRedState = ModBlocks.ClayRed.getStateFromMeta(type.getMeta());
 			IBlockState ClayPurpleState = ModBlocks.ClayPurple.getStateFromMeta(type.getMeta());
 			IBlockState ClayBlueState = ModBlocks.ClayBlue.getStateFromMeta(type.getMeta());
@@ -535,9 +535,9 @@ public class ChiselSupport {
 			chisel.addVariation(ClayYellow.getName(), ClayYellowState, 99);
 			chisel.addVariation(ClayBrown.getName(), ClayBrownState, 99);
 			chisel.addVariation(ClayGray.getName(), ClayGrayState, 99);
-			
-			
-			
+
+
+
 			IBlockState TintedGlassRedState = ModBlocks.TintedGlassRed.getStateFromMeta(type.getMeta());
 			IBlockState TintedGlassPurpleState = ModBlocks.TintedGlassPurple.getStateFromMeta(type.getMeta());
 			IBlockState TintedGlassBlueState = ModBlocks.TintedGlassBlue.getStateFromMeta(type.getMeta());
@@ -553,9 +553,9 @@ public class ChiselSupport {
 			chisel.addVariation(TintedGlassYellow.getName(), TintedGlassYellowState, 99);
 			chisel.addVariation(TintedGlassBrown.getName(), TintedGlassBrownState, 99);
 			chisel.addVariation(TintedGlassGray.getName(), TintedGlassGrayState, 99);
-			
-			
-			
+
+
+
 			IBlockState TexturedGlassRedState = ModBlocks.TexturedGlassRed.getStateFromMeta(type.getMeta());
 			IBlockState TexturedGlassPurpleState = ModBlocks.TexturedGlassPurple.getStateFromMeta(type.getMeta());
 			IBlockState TexturedGlassBlueState = ModBlocks.TexturedGlassBlue.getStateFromMeta(type.getMeta());
@@ -571,9 +571,9 @@ public class ChiselSupport {
 			chisel.addVariation(TexturedGlassYellow.getName(), TexturedGlassYellowState, 99);
 			chisel.addVariation(TexturedGlassBrown.getName(), TexturedGlassBrownState, 99);
 			chisel.addVariation(TexturedGlassGray.getName(), TexturedGlassGrayState, 99);
-			
-			
-			
+
+
+
 			IBlockState FrostedGlassRedState = ModBlocks.FrostedGlassRed.getStateFromMeta(type.getMeta());
 			IBlockState FrostedGlassPurpleState = ModBlocks.FrostedGlassPurple.getStateFromMeta(type.getMeta());
 			IBlockState FrostedGlassBlueState = ModBlocks.FrostedGlassBlue.getStateFromMeta(type.getMeta());
@@ -589,9 +589,9 @@ public class ChiselSupport {
 			chisel.addVariation(FrostedGlassYellow.getName(), FrostedGlassYellowState, 99);
 			chisel.addVariation(FrostedGlassBrown.getName(), FrostedGlassBrownState, 99);
 			chisel.addVariation(FrostedGlassGray.getName(), FrostedGlassGrayState, 99);
-			
-			
-			
+
+
+
 			IBlockState BrickRedState = ModBlocks.BrickRed.getStateFromMeta(type.getMeta());
 			IBlockState BrickPurpleState = ModBlocks.BrickPurple.getStateFromMeta(type.getMeta());
 			IBlockState BrickBlueState = ModBlocks.BrickBlue.getStateFromMeta(type.getMeta());
@@ -607,9 +607,9 @@ public class ChiselSupport {
 			chisel.addVariation(BrickYellow.getName(), BrickYellowState, 99);
 			chisel.addVariation(BrickBrown.getName(), BrickBrownState, 99);
 			chisel.addVariation(BrickGray.getName(), BrickGrayState, 99);
-			
-			
-			
+
+
+
 			IBlockState StoneBrickRedState = ModBlocks.StoneBrickRed.getStateFromMeta(type.getMeta());
 			IBlockState StoneBrickPurpleState = ModBlocks.StoneBrickPurple.getStateFromMeta(type.getMeta());
 			IBlockState StoneBrickBlueState = ModBlocks.StoneBrickBlue.getStateFromMeta(type.getMeta());
@@ -626,8 +626,8 @@ public class ChiselSupport {
 			chisel.addVariation(StoneBrickBrown.getName(), StoneBrickBrownState, 99);
 			chisel.addVariation(StoneBrickGray.getName(), StoneBrickGrayState, 99);
 
-			
-			
+
+
 			IBlockState ColouredBrickRedState = ModBlocks.ColouredBrickRed.getStateFromMeta(type.getMeta());
 			IBlockState ColouredBrickPurpleState = ModBlocks.ColouredBrickPurple.getStateFromMeta(type.getMeta());
 			IBlockState ColouredBrickBlueState = ModBlocks.ColouredBrickBlue.getStateFromMeta(type.getMeta());
@@ -643,9 +643,9 @@ public class ChiselSupport {
 			chisel.addVariation(ColouredBrickYellow.getName(), ColouredBrickYellowState, 99);
 			chisel.addVariation(ColouredBrickBrown.getName(), ColouredBrickBrownState, 99);
 			chisel.addVariation(ColouredBrickGray.getName(), ColouredBrickGrayState, 99);
-			
-			
-			
+
+
+
 			IBlockState StoneLampRedState = ModBlocks.StoneLampRed.getStateFromMeta(type.getMeta());
 			IBlockState StoneLampPurpleState = ModBlocks.StoneLampPurple.getStateFromMeta(type.getMeta());
 			IBlockState StoneLampBlueState = ModBlocks.StoneLampBlue.getStateFromMeta(type.getMeta());
@@ -661,9 +661,9 @@ public class ChiselSupport {
 			chisel.addVariation(StoneLampYellow.getName(), StoneLampYellowState, 99);
 			chisel.addVariation(StoneLampBrown.getName(), StoneLampBrownState, 99);
 			chisel.addVariation(StoneLampGray.getName(), StoneLampGrayState, 99);
-			
-			
-			
+
+
+
 			IBlockState RippledRedState = ModBlocks.RippledRed.getStateFromMeta(type.getMeta());
 			IBlockState RippledPurpleState = ModBlocks.RippledPurple.getStateFromMeta(type.getMeta());
 			IBlockState RippledBlueState = ModBlocks.RippledBlue.getStateFromMeta(type.getMeta());
@@ -680,8 +680,8 @@ public class ChiselSupport {
 			chisel.addVariation(RippledBrown.getName(), RippledBrownState, 99);
 			chisel.addVariation(RippledGray.getName(), RippledGrayState, 99);
 
-			
-			
+
+
 			IBlockState FancyTilesRedState = ModBlocks.FancyTilesRed.getStateFromMeta(type.getMeta());
 			IBlockState FancyTilesPurpleState = ModBlocks.FancyTilesPurple.getStateFromMeta(type.getMeta());
 			IBlockState FancyTilesBlueState = ModBlocks.FancyTilesBlue.getStateFromMeta(type.getMeta());
@@ -697,10 +697,10 @@ public class ChiselSupport {
 			chisel.addVariation(FancyTilesYellow.getName(), FancyTilesYellowState, 99);
 			chisel.addVariation(FancyTilesBrown.getName(), FancyTilesBrownState, 99);
 			chisel.addVariation(FancyTilesGray.getName(), FancyTilesGrayState, 99);
-			
-			
-			
-			
+
+
+
+
 			IBlockState WoodPlankRedState = ModBlocks.WoodPlankRed.getStateFromMeta(type.getMeta());
 			IBlockState WoodPlankPurpleState = ModBlocks.WoodPlankPurple.getStateFromMeta(type.getMeta());
 			IBlockState WoodPlankBlueState = ModBlocks.WoodPlankBlue.getStateFromMeta(type.getMeta());
@@ -716,9 +716,9 @@ public class ChiselSupport {
 			chisel.addVariation(WoodPlankYellow.getName(), WoodPlankYellowState, 99);
 			chisel.addVariation(WoodPlankBrown.getName(), WoodPlankBrownState, 99);
 			chisel.addVariation(WoodPlankGray.getName(), WoodPlankGrayState, 99);
-			
-			
-			
+
+
+
 			IBlockState DottedRedState = ModBlocks.DottedRed.getStateFromMeta(type.getMeta());
 			IBlockState DottedPurpleState = ModBlocks.DottedPurple.getStateFromMeta(type.getMeta());
 			IBlockState DottedBlueState = ModBlocks.DottedBlue.getStateFromMeta(type.getMeta());
@@ -734,9 +734,9 @@ public class ChiselSupport {
 			chisel.addVariation(DottedYellow.getName(), DottedYellowState, 99);
 			chisel.addVariation(DottedBrown.getName(), DottedBrownState, 99);
 			chisel.addVariation(DottedGray.getName(), DottedGrayState, 99);
-			
-			
-			
+
+
+
 			IBlockState CheckeredWoolRedState = ModBlocks.CheckeredWoolRed.getStateFromMeta(type.getMeta());
 			IBlockState CheckeredWoolPurpleState = ModBlocks.CheckeredWoolPurple.getStateFromMeta(type.getMeta());
 			IBlockState CheckeredWoolBlueState = ModBlocks.CheckeredWoolBlue.getStateFromMeta(type.getMeta());
@@ -752,9 +752,9 @@ public class ChiselSupport {
 			chisel.addVariation(CheckeredWoolYellow.getName(), CheckeredWoolYellowState, 99);
 			chisel.addVariation(CheckeredWoolBrown.getName(), CheckeredWoolBrownState, 99);
 			chisel.addVariation(CheckeredWoolGray.getName(), CheckeredWoolGrayState, 99);
-						
-			
-			
+
+
+
 			IBlockState WoolRedState = ModBlocks.WoolRed.getStateFromMeta(type.getMeta());
 			IBlockState WoolPurpleState = ModBlocks.WoolPurple.getStateFromMeta(type.getMeta());
 			IBlockState WoolBlueState = ModBlocks.WoolBlue.getStateFromMeta(type.getMeta());
@@ -770,9 +770,9 @@ public class ChiselSupport {
 			chisel.addVariation(WoolYellow.getName(), WoolYellowState, 99);
 			chisel.addVariation(WoolBrown.getName(), WoolBrownState, 99);
 			chisel.addVariation(WoolGray.getName(), WoolGrayState, 99);
-					
-			
-			
+
+
+
 			IBlockState WoolCarpetRedState = ModBlocks.WoolCarpetRed.getStateFromMeta(type.getMeta());
 			IBlockState WoolCarpetPurpleState = ModBlocks.WoolCarpetPurple.getStateFromMeta(type.getMeta());
 			IBlockState WoolCarpetBlueState = ModBlocks.WoolCarpetBlue.getStateFromMeta(type.getMeta());
@@ -788,9 +788,9 @@ public class ChiselSupport {
 			chisel.addVariation(WoolCarpetYellow.getName(), WoolCarpetYellowState, 99);
 			chisel.addVariation(WoolCarpetBrown.getName(), WoolCarpetBrownState, 99);
 			chisel.addVariation(WoolCarpetGray.getName(), WoolCarpetGrayState, 99);
-		
-			
-			
+
+
+
 			IBlockState CheckeredCarpetRedState = ModBlocks.CheckeredCarpetRed.getStateFromMeta(type.getMeta());
 			IBlockState CheckeredCarpetPurpleState = ModBlocks.CheckeredCarpetPurple.getStateFromMeta(type.getMeta());
 			IBlockState CheckeredCarpetBlueState = ModBlocks.CheckeredCarpetBlue.getStateFromMeta(type.getMeta());
@@ -806,9 +806,9 @@ public class ChiselSupport {
 			chisel.addVariation(CheckeredCarpetYellow.getName(), CheckeredCarpetYellowState, 99);
 			chisel.addVariation(CheckeredCarpetBrown.getName(), CheckeredCarpetBrownState, 99);
 			chisel.addVariation(CheckeredCarpetGray.getName(), CheckeredCarpetGrayState, 99);
-			
-			
-			
+
+
+
 			IBlockState AuraLampRedState = ModBlocks.AuraLampRed.getStateFromMeta(type.getMeta());
 			IBlockState AuraLampPurpleState = ModBlocks.AuraLampPurple.getStateFromMeta(type.getMeta());
 			IBlockState AuraLampBlueState = ModBlocks.AuraLampBlue.getStateFromMeta(type.getMeta());
@@ -824,100 +824,100 @@ public class ChiselSupport {
 			chisel.addVariation(AuraLampYellow.getName(), AuraLampYellowState, 99);
 			chisel.addVariation(AuraLampBrown.getName(), AuraLampBrownState, 99);
 			chisel.addVariation(AuraLampGray.getName(), AuraLampGrayState, 99);
-			
-			
-			
+
+
+
 
 
 		}
-		
-		
+
+
 		for (BlockTypes2 type : BlockTypes2.values()) {
 			IBlockState SolidCyanState = ModBlocks.SolidCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(SolidCyan.getName(), SolidCyanState, 99);
-			
+
 			IBlockState DiagonallyDottedCyanState = ModBlocks.DiagonallyDottedCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(DiagonallyDottedCyan.getName(), DiagonallyDottedCyanState, 99);
-			
+
 			IBlockState StripedCyanState = ModBlocks.StripedCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(StripedCyan.getName(), StripedCyanState, 99);
-			
+
 			IBlockState FloralCyanState = ModBlocks.FloralCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(FloralCyan.getName(), FloralCyanState, 99);
 
 			IBlockState DamaskCyanState = ModBlocks.DamaskCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(DamaskCyan.getName(), DamaskCyanState, 99);
-			
+
 			IBlockState ClayCyanState = ModBlocks.ClayCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(ClayCyan.getName(), ClayCyanState, 99);
-			
+
 			IBlockState TintedGlassCyanState = ModBlocks.TintedGlassCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(TintedGlassCyan.getName(), TintedGlassCyanState, 99);
-			
+
 			IBlockState TexturedGlassCyanState = ModBlocks.TexturedGlassCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(TexturedGlassCyan.getName(), TexturedGlassCyanState, 99);
-			
+
 			IBlockState FrostedGlassCyanState = ModBlocks.FrostedGlassCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(FrostedGlassCyan.getName(), FrostedGlassCyanState, 99);
-			
+
 			IBlockState BrickCyanState = ModBlocks.BrickCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(BrickCyan.getName(), BrickCyanState, 99);
-			
+
 			IBlockState StoneBrickCyanState = ModBlocks.StoneBrickCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(StoneBrickCyan.getName(), StoneBrickCyanState, 99);
-			
+
 			IBlockState ColouredBrickCyanState = ModBlocks.ColouredBrickCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(ColouredBrickCyan.getName(), ColouredBrickCyanState, 99);
-			
+
 			IBlockState StoneLampCyanState = ModBlocks.StoneLampCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(StoneLampCyan.getName(), StoneLampCyanState, 99);
-			
+
 			IBlockState RippledCyanState = ModBlocks.RippledCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(RippledCyan.getName(), RippledCyanState, 99);
-			
+
 			IBlockState FancyTilesCyanState = ModBlocks.FancyTilesCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(FancyTilesCyan.getName(), FancyTilesCyanState, 99);
-			
+
 			IBlockState WoodPlankCyanState = ModBlocks.WoodPlankCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(WoodPlankCyan.getName(), WoodPlankCyanState, 99);
-			
+
 			IBlockState DottedCyanState = ModBlocks.DottedCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(DottedCyan.getName(), DottedCyanState, 99);
-						
+
 			IBlockState WoolCyanState = ModBlocks.WoolCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(WoolCyan.getName(), WoolCyanState, 99);
-			
+
 			IBlockState WoolCarpetCyanState = ModBlocks.WoolCarpetCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(WoolCarpetCyan.getName(), WoolCarpetCyanState, 99);
-			
+
 			IBlockState CheckeredWoolCyanState = ModBlocks.CheckeredWoolCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(CheckeredWoolCyan.getName(), CheckeredWoolCyanState, 99);
-			
+
 			IBlockState CheckeredCarpetCyanState = ModBlocks.CheckeredCarpetCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(CheckeredCarpetCyan.getName(), CheckeredCarpetCyanState, 99);
-			
+
 			IBlockState AuraLampCyanState = ModBlocks.AuraLampCyan.getStateFromMeta(type.getMeta());
 			chisel.addVariation(AuraLampCyan.getName(), AuraLampCyanState, 99);
 
 		}
-		
+
 		for (BlockTypes3 type : BlockTypes3.values()) {
 			IBlockState StampState = ModBlocks.Stamp.getStateFromMeta(type.getMeta());
 			chisel.addVariation(Stamp.getName(), StampState, 99);
-			
+
 			IBlockState JewelState = ModBlocks.Jewel.getStateFromMeta(type.getMeta());
 			chisel.addVariation(Stamp.getName(), JewelState, 99);
 		}
-		
+
 
 	}
 
 
-	
+
 	private static ICarvingGroup getGroup(ICarvingRegistry chisel, String name) {
 		ICarvingGroup group = CarvingUtils.getDefaultGroupFor(name);
 		chisel.addGroup(group);
 		return group;
 	}
-	
+
 }
