@@ -24,6 +24,7 @@ public class PressRippled extends Item {
         setUnlocalizedName("pressrippled");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

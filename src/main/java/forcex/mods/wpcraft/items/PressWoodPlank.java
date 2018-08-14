@@ -23,6 +23,7 @@ public class PressWoodPlank extends Item
 		setUnlocalizedName("presswoodplank");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
 	}
 
 	@SideOnly(Side.CLIENT)

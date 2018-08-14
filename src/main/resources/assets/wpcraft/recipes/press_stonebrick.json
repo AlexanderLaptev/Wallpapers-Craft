@@ -2,17 +2,14 @@
   "result": {
     "item": "wpcraft:press_stonebrick"
   },
-  "pattern": [
-    "FP"
-  ],
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "P": {
-      "item": "wpcraft:press_blank"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"wpcraft:press_blank"
     },
-    "F": {
-      "item": "minecraft:stonebrick",
+    {
+      "item":"minecraft:stonebrick",
       "data": 0
     }
-  }
+  ]
 }

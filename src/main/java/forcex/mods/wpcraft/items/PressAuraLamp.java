@@ -24,6 +24,7 @@ public class PressAuraLamp extends Item {
         setUnlocalizedName("pressauralamp");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

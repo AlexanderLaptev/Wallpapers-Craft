@@ -24,6 +24,7 @@ public class PressStoneLamp extends Item {
         setUnlocalizedName("pressstonelamp");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

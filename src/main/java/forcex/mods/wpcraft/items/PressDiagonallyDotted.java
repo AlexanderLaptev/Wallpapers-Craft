@@ -25,6 +25,7 @@ public class PressDiagonallyDotted extends Item {
         setUnlocalizedName("pressdiagonallydotted");
 		setContainerItem(this);
         setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

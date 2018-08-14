@@ -2,20 +2,17 @@
   "result": {
     "item": "wpcraft:press_coloured_brick"
   },
-  "pattern": [
-    "FPS"
-  ],
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "P": {
-      "item": "wpcraft:press_blank"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"wpcraft:press_blank"
     },
-    "S": {
-      "item": "minecraft:dye",
+    {
+      "item":"minecraft:brick_block"
+    },
+    {
+      "item":"minecraft:dye",
       "data": 32767
-    },
-    "F": {
-      "item": "minecraft:brick_block"
     }
-  }
+  ]
 }

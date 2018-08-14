@@ -24,6 +24,7 @@ public class PressJewel extends Item {
         setUnlocalizedName("pressjewel");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

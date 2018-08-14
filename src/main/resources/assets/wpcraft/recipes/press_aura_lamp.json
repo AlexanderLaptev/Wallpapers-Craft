@@ -2,19 +2,16 @@
   "result": {
     "item": "wpcraft:press_aura_lamp"
   },
-  "pattern": [
-    "FPS"
-  ],
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "P": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "wpcraft:press_blank"
     },
-    "S": {
+    {
       "item": "minecraft:lapis_block"
     },
-    "F": {
+    {
       "item": "minecraft:glowstone"
     }
-  }
+  ]
 }

@@ -24,6 +24,7 @@ public class PressStamp extends Item {
         setUnlocalizedName("pressstamp");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

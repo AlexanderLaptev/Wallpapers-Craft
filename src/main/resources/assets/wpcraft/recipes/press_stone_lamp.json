@@ -2,20 +2,17 @@
   "result": {
     "item": "wpcraft:press_stone_lamp"
   },
-  "pattern": [
-    "FPS"
-  ],
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "P": {
-      "item": "wpcraft:press_blank"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"wpcraft:press_blank"
     },
-    "S": {
-      "item": "minecraft:stone",
+    {
+      "item":"minecraft:glowstone"
+    },
+    {
+      "item":"minecraft:stone",
       "data": 0
-    },
-    "F": {
-      "item": "minecraft:glowstone"
     }
-  }
+  ]
 }

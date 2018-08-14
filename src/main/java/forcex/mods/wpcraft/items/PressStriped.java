@@ -24,6 +24,7 @@ public class PressStriped extends Item {
         setUnlocalizedName("pressstriped");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

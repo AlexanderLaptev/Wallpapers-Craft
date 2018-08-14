@@ -24,6 +24,7 @@ public class PressColouredBrick extends Item {
         setUnlocalizedName("presscolouredbrick");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

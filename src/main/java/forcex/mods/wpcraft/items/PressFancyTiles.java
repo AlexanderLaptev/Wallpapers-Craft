@@ -24,6 +24,7 @@ public class PressFancyTiles extends Item {
         setUnlocalizedName("pressfancytiles");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

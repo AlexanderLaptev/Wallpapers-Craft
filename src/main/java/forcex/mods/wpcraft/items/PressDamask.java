@@ -24,6 +24,7 @@ public class PressDamask extends Item {
         setUnlocalizedName("pressdamask");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

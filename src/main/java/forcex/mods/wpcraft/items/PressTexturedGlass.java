@@ -24,6 +24,7 @@ public class PressTexturedGlass extends Item {
         setUnlocalizedName("presstexturedglass");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

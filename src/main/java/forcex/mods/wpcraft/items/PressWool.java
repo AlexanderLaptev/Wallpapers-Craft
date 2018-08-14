@@ -23,6 +23,7 @@ public class PressWool extends Item {
         setUnlocalizedName("presswool");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

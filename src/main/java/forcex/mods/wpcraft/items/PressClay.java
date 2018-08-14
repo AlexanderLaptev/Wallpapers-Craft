@@ -24,6 +24,7 @@ public class PressClay extends Item {
         setUnlocalizedName("pressclay");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

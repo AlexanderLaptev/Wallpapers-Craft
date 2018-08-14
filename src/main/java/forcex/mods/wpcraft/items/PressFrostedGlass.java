@@ -24,6 +24,7 @@ public class PressFrostedGlass extends Item {
         setUnlocalizedName("pressfrostedglass");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

@@ -24,6 +24,7 @@ public class PressFloral extends Item {
         setUnlocalizedName("pressfloral");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

@@ -24,6 +24,7 @@ public class PressBrick extends Item {
         setUnlocalizedName("pressbrick");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

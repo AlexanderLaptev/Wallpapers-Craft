@@ -24,6 +24,7 @@ public class PressTintedGlass extends Item {
         setUnlocalizedName("presstintedglass");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

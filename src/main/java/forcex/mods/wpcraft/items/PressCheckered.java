@@ -24,6 +24,7 @@ public class PressCheckered extends Item {
         setUnlocalizedName("presscheckered");
 		setContainerItem(this);
 		setCreativeTab(Reference.MODTAB);
+		setMaxStackSize(1);
     }
 
     @SideOnly(Side.CLIENT)

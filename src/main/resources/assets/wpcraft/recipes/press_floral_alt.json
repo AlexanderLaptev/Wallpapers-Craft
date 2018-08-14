@@ -1,6 +1,6 @@
 {
   "result": {
-    "item": "wpcraft:press_wood_plank"
+    "item": "wpcraft:press_floral"
   },
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
@@ -8,7 +8,8 @@
       "item":"wpcraft:press_blank"
     },
     {
-      "item":"#PLANKWOOD"
+      "item":"minecraft:yellow_flower",
+      "data":0
     }
   ]
 }
