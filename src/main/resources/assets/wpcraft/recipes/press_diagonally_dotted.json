@@ -2,17 +2,14 @@
   "result": {
     "item": "wpcraft:press_diagonally_dotted"
   },
-  "pattern": [
-    "FP"
-  ],
-  "type": "minecraft:crafting_shaped",
-  "key": {
-    "P": {
-      "item": "wpcraft:press_blank"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"wpcraft:press_blank",
+      "data":32767
     },
-    "F": {
-      "item": "minecraft:stick",
-      "count": 3
+    {
+      "item":"minecraft:stick"
     }
-  }
+  ]
 }

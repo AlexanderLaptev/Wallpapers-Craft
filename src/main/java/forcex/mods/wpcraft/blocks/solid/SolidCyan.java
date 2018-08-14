@@ -1,12 +1,10 @@
 package forcex.mods.wpcraft.blocks.solid;
 
-import forcex.mods.wpcraft.blockStates.BlockStates;
-import forcex.mods.wpcraft.blockStates.BlockTypes2;
+import forcex.mods.wpcraft.blockstates.BlockStates;
+import forcex.mods.wpcraft.blockstates.BlockTypes2;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.PropertyEnum;
-import forcex.mods.wpcraft.blockStates.BlockStates;
-import forcex.mods.wpcraft.blockStates.BlockTypes2;
 import forcex.mods.wpcraft.blocks.IMetaBlock2;
 
 

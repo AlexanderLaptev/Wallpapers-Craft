@@ -1,7 +1,7 @@
 package forcex.mods.wpcraft.blocks.glass;
 
-import forcex.mods.wpcraft.blockStates.BlockStates;
-import forcex.mods.wpcraft.blockStates.BlockTypes2;
+import forcex.mods.wpcraft.blockstates.BlockStates;
+import forcex.mods.wpcraft.blockstates.BlockTypes2;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -14,8 +14,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import forcex.mods.wpcraft.blockStates.BlockStates;
-import forcex.mods.wpcraft.blockStates.BlockTypes2;
 import forcex.mods.wpcraft.blocks.IMetaBlock2;
 import forcex.mods.wpcraft.init.ModBlocks;
 
